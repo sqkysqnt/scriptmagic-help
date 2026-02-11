@@ -1,0 +1,72 @@
+site_name: ScriptMagic Help
+site_url: https://help.scriptmagic.app
+site_description: Help center for ScriptMagic — collaborative script markup and production planning.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - What is ScriptMagic?: getting-started/what-is-scriptmagic.md
+      - Creating an Account: getting-started/creating-an-account.md
+      - Joining a Production: getting-started/joining-a-production.md
+      - Navigating the App: getting-started/navigating-the-app.md
+  - Productions:
+      - Creating & Managing Productions: productions/creating-and-managing-productions.md
+      - People: productions/people.md
+      - Characters: productions/characters.md
+      - Production Structure: productions/production-structure.md
+  - Scripts:
+      - Uploading a Script: scripts/uploading-a-script.md
+      - Viewing & Navigating Pages: scripts/viewing-and-navigating-pages.md
+      - Script Variants: scripts/script-variants.md
+  - Annotations:
+      - Highlights: annotations/highlights.md
+      - Notes: annotations/notes.md
+      - Cues: annotations/cues.md
+      - Tags (Music, Video, Block): annotations/tags.md
+      - Understanding Layers: annotations/understanding-layers.md
+  - Blocking:
+      - The Blocking Editor: blocking/the-blocking-editor.md
+      - Character Stickers: blocking/character-stickers.md
+      - Blocking Thumbnails: blocking/blocking-thumbnails.md
+  - Collaboration:
+      - Inviting Team Members: collaboration/inviting-team-members.md
+      - Roles & Permissions: collaboration/roles-and-permissions.md
+      - Sharing & Exporting: collaboration/sharing-and-exporting.md
+  - Account & Settings:
+      - Profile Settings: account/profile-settings.md
+      - Company Management: account/company-management.md
