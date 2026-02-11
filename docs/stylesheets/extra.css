@@ -1,0 +1,97 @@
+/* ScriptMagic brand overrides — match scriptmagic.app styling */
+
+:root {
+  /* Light mode palette */
+  --md-primary-fg-color: #1a1a1a;
+  --md-primary-fg-color--light: #333333;
+  --md-primary-fg-color--dark: #000000;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+  --md-accent-fg-color: #f5a623;
+  --md-accent-fg-color--transparent: rgba(245, 166, 35, 0.1);
+
+  /* Typography */
+  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --md-code-font: "Fira Code", "SF Mono", monospace;
+}
+
+/* Dark mode palette */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1a1a1a;
+  --md-primary-fg-color--light: #2d2d2d;
+  --md-primary-fg-color--dark: #000000;
+  --md-accent-fg-color: #f5a623;
+  --md-accent-fg-color--transparent: rgba(245, 166, 35, 0.1);
+}
+
+/* Header — clean dark bar like the app toolbar */
+.md-header {
+  background-color: #1a1a1a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Tabs bar */
+.md-tabs {
+  background-color: #1a1a1a;
+}
+
+/* Links — amber/gold accent to match app */
+a {
+  color: #b8860b;
+}
+
+a:hover {
+  color: #f5a623;
+}
+
+/* Content area links */
+.md-typeset a {
+  color: #b8860b;
+}
+
+.md-typeset a:hover {
+  color: #f5a623;
+}
+
+/* Navigation sidebar active item */
+.md-nav__link--active {
+  color: #b8860b !important;
+}
+
+/* Search bar styling */
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Footer */
+.md-footer {
+  background-color: #1a1a1a;
+}
+
+/* Admonition accent colors */
+.md-typeset .admonition,
+.md-typeset details {
+  border-left-color: #f5a623;
+}
+
+/* Table header */
+.md-typeset table:not([class]) th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Subtle card-like feel for content */
+.md-content {
+  background-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-content {
+  background-color: #1e1e1e;
+}
+
+/* Smooth transitions */
+.md-header,
+.md-tabs,
+a {
+  transition: all 0.2s ease;
+}
