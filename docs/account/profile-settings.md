@@ -25,7 +25,7 @@ Your profile stores your personal information and preferences in ScriptMagic. Ac
 **Additional:**
 
 - **Notes / Accessibility / Medical info** — free text for any relevant information your production team should know
-- **Profile photo** — upload a headshot that appears as your avatar throughout the app. This photo can also be used on [character stickers](../blocking/character-stickers.md) in blocking maps.
+- **Profile photo** — upload a headshot that appears as your avatar throughout the app. This photo can also be used on [character stickers](../blocking/character-stickers.md) in blocking maps when the sticker shape is set to "headshot."
 
 ## Resetting your password
 
@@ -33,4 +33,7 @@ From the profile editor, click the **Reset Password** button. A password reset e
 
 ## How profile updates sync
 
-When you update your profile, production admins may see a notification on your record in their People management screen showing what changed. They can choose to accept the update or keep their existing information.
+When you update your profile, production admins may see a notification on your record in their [People management](../productions/people.md#profile-sync) screen showing what changed. They can choose to accept the update or keep their existing information.
+
+!!! tip
+    Keep your profile up to date — especially your phone number and emergency contact. Production admins rely on this information during rehearsals and performances.

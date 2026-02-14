@@ -1,6 +1,6 @@
 # Highlights
 
-Highlights are colored overlays you place on script pages to mark important areas. They're the most basic annotation type in ScriptMagic.
+Highlights are colored overlays you place on script pages to mark important areas. They're the most basic annotation type in ScriptMagic — use them to mark lines, flag sections, add text notes, or redact content.
 
 ## Creating a highlight
 
@@ -11,7 +11,7 @@ Highlights are colored overlays you place on script pages to mark important area
 ## Highlight types
 
 - **Basic** — A colored rectangle. The most common type for marking lines, sections, or areas of interest.
-- **Text** — A highlight that contains editable text. Double-click to type inside it.
+- **Text** — A highlight that contains editable text. Double-click to type inside it. See also [Notes](notes.md).
 - **Blackout** — A solid black rectangle for redacting or covering content.
 - **Whiteout** — A solid white rectangle with a light border for covering content.
 - **DCA marker** — A circular numbered marker (1–16) used for sound cue assignments.
@@ -32,10 +32,13 @@ Text highlights support:
 - Text color
 - Background color and opacity
 
+!!! tip
+    Text styling is configured per layer, so all highlights on the same layer share a consistent look by default. You can customize this in [layer styling](understanding-layers.md#layer-styling).
+
 ## Deleting a highlight
 
 Select a highlight and click the red X button, or press Delete/Backspace while it's selected.
 
 ## Permissions
 
-You can only edit or delete highlights on layers you have edit access to. Highlights on read-only layers can be viewed but not modified. See [Understanding Layers](understanding-layers.md) for details on layer permissions.
+You can only edit or delete highlights on layers you have edit access to. Highlights on read-only layers can be viewed but not modified. See [Understanding Layers](understanding-layers.md#permissions) for details on layer permissions.

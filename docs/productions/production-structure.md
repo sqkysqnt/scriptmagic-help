@@ -1,6 +1,6 @@
 # Production Structure
 
-Production structure defines how your show is organized — its acts, scenes, songs, transitions, and intermissions. This structure is used throughout ScriptMagic for character tracking, page references, and cue organization.
+Production structure defines how your show is organized — its acts, scenes, songs, transitions, and intermissions. This structure is used throughout ScriptMagic for [character](characters.md) tracking, page references, and [cue](../annotations/cues.md) organization.
 
 ## Structure types
 
@@ -65,7 +65,8 @@ Structure items support parent-child relationships:
 
 Each structure item can have a **page number** that links directly to that page in your script. Click the page number to jump there.
 
-If your PDF has cover pages or front matter, set the **pages before script page 1** offset in your production settings so page numbers align correctly.
+!!! tip
+    If your PDF has cover pages or front matter, set the **pages before script page 1** offset in your [production settings](creating-and-managing-productions.md) so page numbers align correctly.
 
 ## Team notes
 

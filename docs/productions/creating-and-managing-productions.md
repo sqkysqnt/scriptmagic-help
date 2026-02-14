@@ -4,7 +4,7 @@ A production is the top-level container in ScriptMagic. It holds your script, pe
 
 ## Creating a production
 
-To create a new production, you'll need **Production Admin** or **Company Admin** permissions.
+To create a new production, you'll need **Production Admin** or **Company Admin** permissions. See [Roles & Permissions](../collaboration/roles-and-permissions.md) for details.
 
 1. From the productions dashboard, click **Create Production**
 2. Fill in the production details:
@@ -13,7 +13,7 @@ To create a new production, you'll need **Production Admin** or **Company Admin*
 
 - **Production name** (required)
 - **Description** (optional)
-- **Theatre company** (required) — select which company this production belongs to
+- **Theatre company** (required) — select which [company](../account/company-management.md) this production belongs to
 - **Venue** (optional)
 - **Rights holder information** (optional) — for documenting licensing and contracts
 
@@ -27,7 +27,7 @@ To create a new production, you'll need **Production Admin** or **Company Admin*
 
 - **Script PDF** — upload your master script (see [Uploading a Script](../scripts/uploading-a-script.md))
 - **Production image** — a poster or cover image for the production card
-- **Pages before script page 1** — set an offset if your PDF contains cover pages or front matter before the actual script begins
+- **Pages before script page 1** — set an offset if your PDF contains cover pages or front matter before the actual script begins (see [Page Offset](../scripts/uploading-a-script.md#page-offset))
 
 **External resources:**
 
@@ -62,3 +62,10 @@ Your productions dashboard shows all productions you have access to. Each card d
 - A celebration banner once the show has opened
 
 Productions are sorted by opening date, with upcoming shows listed first.
+
+## Related
+
+- [People](people.md) — Manage cast and crew for your production
+- [Characters](characters.md) — Set up character roles and casting assignments
+- [Production Structure](production-structure.md) — Define acts, scenes, songs, and transitions
+- [Uploading a Script](../scripts/uploading-a-script.md) — Upload and manage your script PDF

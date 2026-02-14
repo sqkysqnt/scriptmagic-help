@@ -1,6 +1,6 @@
 # Tags (Music, Video, Block)
 
-Tags are a way to attach media and blocking references directly to script pages. Unlike highlights and notes, tags link to external content — audio tracks, video clips, and blocking maps.
+Tags are a way to attach media and blocking references directly to script pages. Unlike [highlights](highlights.md) and [notes](notes.md), tags link to external content — audio tracks, video clips, and [blocking maps](../blocking/the-blocking-editor.md).
 
 ## Music tags
 
@@ -26,9 +26,9 @@ Video tags are useful for linking choreography references, staging videos, or de
 
 ## Blocking tags
 
-Blocking tags display blocking map thumbnails on script pages, giving a quick visual reference for stage positions.
+Blocking tags display [blocking map](../blocking/the-blocking-editor.md) thumbnails on script pages, giving a quick visual reference for stage positions.
 
-- **Appearance** — A thumbnail card showing a preview of the blocking map
+- **Appearance** — A thumbnail card showing a preview of the blocking map (see [Blocking Thumbnails](../blocking/blocking-thumbnails.md))
 - **Preview** — Click the thumbnail to see the full-size blocking map
 - **Editing** — Click "Edit" to open the blocking map in the [blocking editor](../blocking/the-blocking-editor.md)
 - **Creating** — Use the Blocking panel in the script view, or create blocking maps from the blocking editor
@@ -37,7 +37,10 @@ Blocking tags display blocking map thumbnails on script pages, giving a quick vi
 
 All tag types share these properties:
 
-- **Layer assignment** — Tags are assigned to a layer and follow that layer's visibility settings
+- **Layer assignment** — Tags are assigned to a [layer](understanding-layers.md) and follow that layer's visibility settings
 - **Draggable** — Tags can be repositioned on the page by dragging
 - **Lockable** — Tags can be locked in position to prevent accidental moves
 - **Metadata** — Tags track who created them and when they were last modified
+
+!!! note
+    Each tag type has its own dedicated [system layer](understanding-layers.md#system-layers) (Music, Videos, Blocking) that is always at production visibility level.

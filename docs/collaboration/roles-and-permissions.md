@@ -1,6 +1,6 @@
 # Roles & Permissions
 
-ScriptMagic uses a role-based system to control what each person can see and do within a production.
+ScriptMagic uses a role-based system to control what each person can see and do within a production. Roles determine access to features like annotation editing, cue management, and production settings.
 
 ## Production roles
 
@@ -11,7 +11,7 @@ When someone joins a production, they're assigned one of three roles:
 The default role for performers and general participants.
 
 - View scripts and navigate pages
-- Create and edit personal annotation layers ("Me" visibility)
+- Create and edit personal annotation [layers](../annotations/understanding-layers.md) ("Me" visibility)
 - View production-level layers shared by the team
 
 ### Production Team
@@ -20,9 +20,9 @@ For stage managers, designers, technicians, and other crew members.
 
 - Everything Cast can do, plus:
 - Create and edit **Production** and **Design** visibility layers
-- View and edit cues
-- Export scripts with annotations and cues
-- View production team notes on structure items
+- View and edit [cues](../annotations/cues.md)
+- [Export](sharing-and-exporting.md) scripts with annotations and cues
+- View production team notes on [structure items](../productions/production-structure.md)
 
 ### Production Admin
 
@@ -30,10 +30,23 @@ Full access to manage the production.
 
 - Everything Production Team can do, plus:
 - Edit production settings (name, dates, script, etc.)
-- Manage people (add, remove, change roles)
-- Manage characters and production structure
-- Send invitations
+- Manage [people](../productions/people.md) (add, remove, change roles)
+- Manage [characters](../productions/characters.md) and [production structure](../productions/production-structure.md)
+- Send [invitations](inviting-team-members.md)
 - Delete the production
+
+## Quick reference
+
+| Capability | Cast | Production Team | Production Admin |
+|---|---|---|---|
+| View script | Yes | Yes | Yes |
+| Personal annotations (Me layers) | Yes | Yes | Yes |
+| Production/Design layers | View only | Edit | Edit |
+| Cues | - | Edit | Edit |
+| Export with cues | - | Yes | Yes |
+| Manage people & characters | - | - | Yes |
+| Edit production settings | - | - | Yes |
+| Delete production | - | - | Yes |
 
 ## Administrative roles
 
@@ -41,7 +54,7 @@ In addition to production roles, there are administrative roles that span across
 
 ### Company Admin
 
-Manages a specific company and all its productions.
+Manages a specific [company](../account/company-management.md) and all its productions.
 
 - Create productions under their company
 - Edit any production in their company
@@ -60,5 +73,5 @@ Full access to the entire ScriptMagic system.
 ## How roles are assigned
 
 - **When invited**, the person sending the invitation chooses the role
-- **After joining**, a production admin can change someone's role from the People management screen
+- **After joining**, a production admin can change someone's role from the [People management](../productions/people.md) screen
 - **Production-level overrides** — a person's role can be different in each production they belong to

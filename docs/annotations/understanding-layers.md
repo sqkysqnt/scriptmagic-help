@@ -1,6 +1,6 @@
 # Understanding Layers
 
-Layers are the organizational backbone of annotations in ScriptMagic. Every highlight, note, cue, and tag belongs to a layer. Layers control who can see and edit annotations, and let you keep different types of markup separate.
+Layers are the organizational backbone of annotations in ScriptMagic. Every [highlight](highlights.md), [note](notes.md), [cue](cues.md), and [tag](tags.md) belongs to a layer. Layers control who can see and edit annotations, and let you keep different types of markup separate.
 
 ## How layers work
 
@@ -28,9 +28,9 @@ Each layer has a visibility setting that controls who can see and edit it:
 
 Every production has three built-in system layers:
 
-- **Music** — Contains music tags
-- **Videos** — Contains video tags
-- **Blocking** — Contains blocking tags
+- **Music** — Contains [music tags](tags.md#music-tags)
+- **Videos** — Contains [video tags](tags.md#video-tags)
+- **Blocking** — Contains [blocking tags](tags.md#blocking-tags)
 
 System layers cannot be renamed, deleted, or used for highlights. They're always at the production visibility level.
 
@@ -38,7 +38,8 @@ System layers cannot be renamed, deleted, or used for highlights. They're always
 
 Toggle the eye icon next to any layer to show or hide it. This only affects your view — other users' visibility preferences are independent.
 
-Hidden layers and their annotations won't appear on the script or in exports.
+!!! tip
+    Hidden layers and their annotations won't appear on the script or in [exports](../collaboration/sharing-and-exporting.md). Use this to control exactly what appears in your exported PDFs.
 
 ## Creating a layer
 
@@ -57,7 +58,10 @@ Each layer has configurable styling that applies to all annotations on that laye
 
 ## Cue layers
 
-Any layer can be marked as a **cue layer** in its settings. When enabled, cues on that layer appear in the [cue list panel](cues.md), making it easy to track cues across the script.
+Any layer can be marked as a **cue layer** in its settings. When enabled, cues on that layer appear in the [cue list panel](cues.md#cue-list-panel), making it easy to track cues across the script.
+
+!!! tip
+    Create separate cue layers for each department (e.g., "LX Cues", "SFX Cues", "Video Cues") to keep things organized while still seeing all cues together in the cue list.
 
 ## Permissions
 
@@ -65,3 +69,5 @@ Any layer can be marked as a **cue layer** in its settings. When enabled, cues o
 - Production team members can edit **Production** and **Design** visibility layers
 - **Me** and **Personal** layers can only be edited by their creator
 - If you don't have edit access to a layer, you can still view its annotations (if the visibility allows it) but you can't modify them
+
+See [Roles & Permissions](../collaboration/roles-and-permissions.md) for more on how roles affect what you can do.

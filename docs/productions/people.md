@@ -1,6 +1,6 @@
 # People
 
-The People management screen lets production admins manage the cast and crew for a production.
+The People management screen lets production admins manage the cast and crew for a production. You can add people manually, import from a CSV, or send email invitations.
 
 ## Adding people
 
@@ -29,11 +29,13 @@ For bulk imports:
 3. If the email matches an existing ScriptMagic user, they're added immediately
 4. If the email is new, an invitation link is sent with a 7-day expiration
 
+See [Inviting Team Members](../collaboration/inviting-team-members.md) for more details on the invitation flow.
+
 ## Person details
 
 Each person has two levels of information:
 
-**Company-level fields** (shared across all productions in that company):
+**Company-level fields** (shared across all productions in that [company](../account/company-management.md)):
 
 - Full name, email, phone, alternate phone
 - Pronouns, job title
@@ -50,13 +52,14 @@ Each person has two levels of information:
 - Rehearsal conflicts
 - Production-specific notes
 - Role override (can differ from company role)
-- Assigned characters
+- Assigned [characters](characters.md)
 
-This two-tier approach means if someone is in multiple productions for the same company, their core contact information is maintained in one place.
+!!! tip
+    This two-tier approach means if someone is in multiple productions for the same company, their core contact information is maintained in one place.
 
 ## Profile sync
 
-If a person updates their own ScriptMagic profile (name, phone, etc.), you'll see a **User Profile Updated** banner on their record showing what changed. You can choose to accept the update or keep the existing company-level value.
+If a person updates their own ScriptMagic [profile](../account/profile-settings.md) (name, phone, etc.), you'll see a **User Profile Updated** banner on their record showing what changed. You can choose to accept the update or keep the existing company-level value.
 
 ## Removing people
 

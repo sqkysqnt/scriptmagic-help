@@ -1,6 +1,6 @@
 # Notes
 
-Notes are text-based annotations you can place anywhere on a script page. They're useful for adding instructions, reminders, or observations directly on the script.
+Notes are text-based annotations you can place anywhere on a script page. They're useful for adding instructions, reminders, or observations directly on the script — like writing in the margins of a paper script, but digital.
 
 ## Adding a note
 
@@ -26,7 +26,8 @@ Notes support the following text styling:
 - **Text color** — change the text color
 - **Background color and opacity** — control the note's background appearance
 
-These styling options are configured per layer, so all notes on the same layer share a consistent look by default.
+!!! tip
+    These styling options are configured per [layer](understanding-layers.md#layer-styling), so all notes on the same layer share a consistent look by default.
 
 ## Moving and resizing
 
@@ -36,3 +37,7 @@ These styling options are configured per layer, so all notes on the same layer s
 ## Deleting a note
 
 Select the note and click the red X button, or press Delete/Backspace while it's selected.
+
+## Permissions
+
+You can only edit or delete notes on layers you have edit access to. See [Understanding Layers](understanding-layers.md#permissions) for details.

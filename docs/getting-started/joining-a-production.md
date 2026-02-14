@@ -1,6 +1,6 @@
 # Joining a Production
 
-Once you have a ScriptMagic account, there are a few ways to get added to a production.
+A production is the central workspace in ScriptMagic — it holds your script, people, annotations, and blocking for a single show. Once you have a ScriptMagic account, there are a few ways to get added to one.
 
 ## Via invitation link
 
@@ -16,7 +16,7 @@ This is the most common path. A production admin or team lead sends you an invit
 
 ## Added directly by an admin
 
-A production admin can add you directly from the People management screen if you already have a ScriptMagic account. In this case:
+A production admin can add you directly from the [People management](../productions/people.md) screen if you already have a ScriptMagic account. In this case:
 
 - You don't need to click any link
 - The production will appear on your dashboard the next time you load the app
@@ -26,9 +26,11 @@ A production admin can add you directly from the People management screen if you
 
 When you join a production, you're assigned a role that determines what you can see and do:
 
-- **Cast** — View scripts and your own annotations
-- **Production Team** — View and edit shared annotations, cues, and layers
-- **Production Admin** — Full access to manage people, characters, structure, and production settings
+| Role | What you can do |
+|---|---|
+| **Cast** | View scripts and create personal annotations |
+| **Production Team** | Edit shared annotations, cues, and layers; export scripts |
+| **Production Admin** | Full access to manage people, characters, structure, and settings |
 
 Your role can be changed later by a production admin. See [Roles & Permissions](../collaboration/roles-and-permissions.md) for details on what each role can do.
 
@@ -41,4 +43,4 @@ After joining, go to your **productions dashboard** to see all productions you h
 - Opening date (with countdown)
 - Cover image
 
-Click a production to open its script view.
+Click a production card to open it in the [script view](navigating-the-app.md#script-view).

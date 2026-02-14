@@ -1,6 +1,6 @@
 # Characters
 
-Characters in ScriptMagic represent the roles in your production. They're used for casting assignments, scene tracking, and blocking maps.
+Characters in ScriptMagic represent the roles in your production. They're used for casting assignments, scene tracking, and [blocking maps](../blocking/the-blocking-editor.md).
 
 ## Creating characters
 
@@ -24,7 +24,7 @@ Each character has:
 - **Name** — the character or role name (e.g., "Elphaba")
 - **Custom name / group label** (optional) — for ensemble roles like "Ballet Girls" or "Town Ensemble"
 - **Assigned people** — one or more cast members. Ensemble roles can have multiple people assigned.
-- **Scenes and songs** — which scenes and musical numbers the character appears in
+- **Scenes and songs** — which scenes and musical numbers the character appears in (see [Production Structure](production-structure.md))
 
 ## Sticker appearance
 
@@ -35,7 +35,7 @@ Every character has a customizable sticker used in [blocking maps](../blocking/t
 - **Border color** — the sticker's outline color
 - **Text** — initials or a custom abbreviation (auto-derived from the character name if left blank)
 
-Click the sticker preview on a character to open the sticker editor and customize these settings.
+Click the sticker preview on a character to open the sticker editor and customize these settings. See [Character Stickers](../blocking/character-stickers.md) for details on how stickers work in the blocking editor.
 
 ## Assigning people to characters
 
@@ -44,7 +44,7 @@ Click the sticker preview on a character to open the sticker editor and customiz
 3. A dialog shows all production members — check or uncheck to assign or remove
 4. Filter by name or email to find specific people
 
-Multiple people can be assigned to a single character for ensemble roles. When you assign a character to a person, it also appears on their record in the People management screen.
+Multiple people can be assigned to a single character for ensemble roles. When you assign a character to a person, it also appears on their record in the [People](people.md) management screen.
 
 ## Assigning scenes and songs
 
@@ -53,7 +53,8 @@ Multiple people can be assigned to a single character for ensemble roles. When y
 3. Check the scenes or musical numbers the character appears in
 4. Filter by name to find specific items
 
-If a character is assigned to a song that's nested inside a scene, the parent scene is automatically shown as inherited.
+!!! tip
+    If a character is assigned to a song that's nested inside a scene, the parent scene is automatically shown as inherited — you don't need to assign both manually.
 
 ## Deleting characters
 

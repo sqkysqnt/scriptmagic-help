@@ -1,15 +1,16 @@
 # Blocking Thumbnails
 
-Blocking thumbnails are small preview images that give you a quick visual reference of each blocking map without opening the editor.
+Blocking thumbnails are small preview images that give you a quick visual reference of each blocking map without opening the [editor](the-blocking-editor.md).
 
 ## Where thumbnails appear
 
 - **Blocking list** — In the blocking panel's sidebar, each blocking map shows a thumbnail alongside its title and page number
-- **Blocking tags** — When a blocking map is placed on a script page as a [tag](../annotations/tags.md), the thumbnail appears as a clickable preview card
+- **Blocking tags** — When a blocking map is placed on a script page as a [tag](../annotations/tags.md#blocking-tags), the thumbnail appears as a clickable preview card
+- **Exports** — Thumbnails can be included in [exported PDFs](../collaboration/sharing-and-exporting.md#exporting-a-script) as inline thumbnails or full blocking pages
 
 ## How thumbnails are generated
 
-Thumbnails are created automatically every time you save a blocking map. The system captures a snapshot of the canvas — including all visible character stickers and the background image — and saves it as a preview image.
+Thumbnails are created automatically every time you save a blocking map. The system captures a snapshot of the canvas — including all visible [character stickers](character-stickers.md) and the background image — and saves it as a preview image.
 
 You don't need to do anything to generate or update thumbnails. They refresh automatically with each save.
 

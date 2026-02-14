@@ -8,7 +8,7 @@ A variant is a named sequence of pages. Every production starts with a **Default
 
 ## Creating a variant
 
-1. Open the variants manager from the production edit screen
+1. Open the variants manager from the [production edit screen](../productions/creating-and-managing-productions.md#editing-a-production)
 2. Click **New**
 3. Enter a name for the variant
 4. Add pages from existing PDFs, upload a new PDF, or insert blank pages
@@ -44,6 +44,7 @@ Removes the variant and its page ordering. The underlying page files are not del
 
 ## How variants relate to annotations
 
-Annotations (highlights, cues, notes, tags, blocking) are attached to **pages**, not variants. If the same page appears in two variants, it shows the same annotations in both.
+Annotations ([highlights](../annotations/highlights.md), [cues](../annotations/cues.md), [notes](../annotations/notes.md), [tags](../annotations/tags.md), blocking) are attached to **pages**, not variants. If the same page appears in two variants, it shows the same annotations in both.
 
-This means you can reorganize pages across variants without losing any annotation work.
+!!! tip
+    This means you can reorganize pages across variants without losing any annotation work. Annotations follow the page, not the variant.
