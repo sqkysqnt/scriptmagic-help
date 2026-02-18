@@ -72,11 +72,26 @@ Each structure item can have a **page number** that links directly to that page 
 
 Production team notes on structure items are visible to production admins and team members. They're useful for coordination notes, technical requirements, or reminders.
 
-## Breakdown report
+## Breakdown reports
 
-The breakdown report provides a summary of your production structure with character assignments. It shows which characters appear in which scenes and songs — useful for:
+The Reports button in the script view toolbar opens a multi-tab reporting dialog. Reports are available to Production Team and Admin roles.
 
-- Conflict checking (who's on stage at the same time)
-- Costume quick-change tracking
-- Technical cue placement
-- Rehearsal scheduling
+### By Character
+
+A grid showing characters (rows) vs. scenes and songs (columns). The header follows your production hierarchy with acts, scenes, and songs grouped together. Useful for conflict checking and tracking who's on stage at the same time. Exportable to CSV.
+
+### By Cast Member
+
+The same breakdown organized by person rather than character — shows all the characters each cast member plays and which scenes they're in. Exportable to CSV.
+
+### Cue List
+
+A spreadsheet view of all [cues](../annotations/cues.md) with sortable columns, column-based filtering, and inline editing. Columns include cue number, text, page, layer, associated cue number, notes, moment, and author info. Exportable to CSV.
+
+### Cut Cues
+
+Lists all [cut cues](../annotations/cues.md#cut-cues) across the production. You can remove individual cut cues or use "Remove All" to clear them in batch.
+
+### Cast Sheets
+
+Per-person script excerpts showing each cast member's scenes with page numbers, entrance/exit notes, and structure context. Exportable as individual PDFs or a batch PDF of all cast sheets.

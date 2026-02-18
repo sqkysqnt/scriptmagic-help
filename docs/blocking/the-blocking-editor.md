@@ -96,9 +96,22 @@ Select 2 or more character stickers and click **Group** to create a character gr
 
 Add free-form text labels directly on the stage diagram for stage directions, position notes, or any other text. Text labels support custom color and font size.
 
+## Alignment guides
+
+When you drag a scenery item or sticker across the canvas, **alignment guides** appear automatically as magenta lines showing where the element's edges or center line up with other elements. Guides detect alignment on left, center, and right edges horizontally, and top, center, and bottom edges vertically. This makes it easy to line up set pieces precisely without relying on a grid.
+
 ## Dance placement ribbon
 
-A horizontal numbered line placed on the canvas. Displays numbers counting outward from center (0) in both directions, with spacing equal to one real-world unit (foot or meter) based on the map's scale calibration. Resizable via side handles. Useful for choreography spacing and dance placement.
+A horizontal numbered line placed on the canvas for choreography spacing. The ribbon displays numbers counting outward from center (0) in both directions (...3 2 1 0 1 2 3...), with spacing equal to one real-world unit (foot or meter) based on the map's [scale calibration](#scale-calibration-tool).
+
+- **Resize** using the side handles — more numbers appear as the ribbon gets wider
+- **Move** by dragging the ribbon body
+- **Lock** via double-click context menu to prevent accidental movement
+- **Snap** to grid lines and other scenery elements when positioning
+- **Performer view** — numbers rotate for readability when the canvas is in performer view
+
+!!! note
+    If no scale calibration is set, the ribbon shows a "Set Scale for accurate spacing" overlay. Calibrate your stage first for accurate measurements.
 
 ## Grid overlay
 

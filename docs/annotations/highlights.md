@@ -35,6 +35,17 @@ Text highlights support:
 !!! tip
     Text styling is configured per layer, so all highlights on the same layer share a consistent look by default. You can customize this in [layer styling](understanding-layers.md#layer-styling).
 
+## Per-highlight format overrides
+
+Individual highlights can override their layer's default styling. Click the format button on a selected highlight to open the format dialog, where you can adjust:
+
+- **Color** and **opacity** — override the layer's highlight color
+- **Border** — toggle a border and set its color and strength
+- **Text color, font, and size** — for text highlights and cue text boxes
+- **Bold, italic, underline** — text formatting overrides
+
+Overridden properties are visually distinguished in the dialog. A badge shows the number of active overrides. You can reset individual properties or all overrides at once.
+
 ## Deleting a highlight
 
 Select a highlight and click the red X button, or press Delete/Backspace while it's selected.

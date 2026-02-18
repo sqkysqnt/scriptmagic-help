@@ -20,9 +20,12 @@ For stage managers, designers, technicians, and other crew members.
 
 - Everything Cast can do, plus:
 - Create and edit **Production** and **Design** visibility layers
+- Create [cue layers](../annotations/understanding-layers.md#cue-layers) and [Sound DCA layers](../annotations/understanding-layers.md#sound-dca-layers)
 - View and edit [cues](../annotations/cues.md)
 - [Export](sharing-and-exporting.md) scripts with annotations and cues
+- Access [breakdown reports](../productions/production-structure.md#breakdown-reports) (by character, by cast member, cue list, cast sheets)
 - View production team notes on [structure items](../productions/production-structure.md)
+- Open the [blocking editor](../blocking/the-blocking-editor.md) and manage people
 
 ### Production Admin
 
@@ -42,9 +45,11 @@ Full access to manage the production.
 | View script | Yes | Yes | Yes |
 | Personal annotations (Me layers) | Yes | Yes | Yes |
 | Production/Design layers | View only | Edit | Edit |
-| Cues | - | Edit | Edit |
+| Cue layers & Sound DCA layers | - | Edit | Edit |
 | Export with cues | - | Yes | Yes |
-| Manage people & characters | - | - | Yes |
+| Breakdown reports & cast sheets | - | Yes | Yes |
+| Blocking editor & people management | - | Yes | Yes |
+| Manage characters & structure | - | - | Yes |
 | Edit production settings | - | - | Yes |
 | Delete production | - | - | Yes |
 

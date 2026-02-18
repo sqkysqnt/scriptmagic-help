@@ -17,6 +17,8 @@ Characters in ScriptMagic represent the roles in your production. They're used f
 2. Paste a list of character names (one per line)
 3. Characters are created with default settings, and duplicates are skipped
 
+Imported characters are automatically assigned distinct sticker colors, border colors, and shapes so they're easy to tell apart on [blocking maps](../blocking/the-blocking-editor.md).
+
 ## Character properties
 
 Each character has:
@@ -25,6 +27,8 @@ Each character has:
 - **Custom name / group label** (optional) — for ensemble roles like "Ballet Girls" or "Town Ensemble"
 - **Assigned people** — one or more cast members. Ensemble roles can have multiple people assigned.
 - **Scenes and songs** — which scenes and musical numbers the character appears in (see [Production Structure](production-structure.md))
+- **Entrance/exit notes** — per-scene notes describing how the character enters or exits (e.g., "SR", "SL", "flies in"). These appear in [cast sheets](../annotations/cues.md#reports) and the breakdown report.
+- **Notes** — separate sections for cast notes, director notes, and team notes
 
 ## Sticker appearance
 

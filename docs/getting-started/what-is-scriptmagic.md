@@ -16,11 +16,14 @@ ScriptMagic is built for anyone involved in putting on a show:
 
 - **Upload and view scripts** as PDFs, with page navigation and zoom — see [Uploading a Script](../scripts/uploading-a-script.md)
 - **Annotate scripts** with highlights, text notes, cues, and tags — see [Annotations](../annotations/highlights.md)
-- **Create blocking maps** showing character positions on stage, with freehand drawing, scenery items, and scale calibration — see [The Blocking Editor](../blocking/the-blocking-editor.md)
-- **Organize with layers** so each department or individual can have their own annotation space — see [Understanding Layers](../annotations/understanding-layers.md)
+- **Track technical cues** with auto-numbered prefixes, cut cue management, CSV import/export, and inline editing — see [Cues](../annotations/cues.md)
+- **Create blocking maps** showing character positions on stage, with freehand drawing, scenery items, alignment guides, and scale calibration — see [The Blocking Editor](../blocking/the-blocking-editor.md)
+- **Organize with layers** so each department or individual can have their own annotation space, including specialized cue layers and Sound DCA layers — see [Understanding Layers](../annotations/understanding-layers.md)
 - **Manage productions** including people, characters, and show structure (acts, scenes, songs) — see [Productions](../productions/creating-and-managing-productions.md)
-- **Export annotated scripts** as PDFs with your chosen layers and annotations included — see [Sharing & Exporting](../collaboration/sharing-and-exporting.md)
-- **Work offline** — download productions for use without an internet connection, with automatic sync when you reconnect — see [Navigating the App](navigating-the-app.md#offline-mode)
+- **Generate reports** — breakdown by character or cast member, cue lists, cut cue reports, and cast sheets — see [Breakdown Reports](../productions/production-structure.md#breakdown-reports)
+- **Export annotated scripts** as PDFs with your chosen layers, variants, and annotations included — see [Sharing & Exporting](../collaboration/sharing-and-exporting.md)
+- **Sync pages in rehearsal** — use page movement leader/follow to keep everyone on the same page — see [Navigating the App](navigating-the-app.md#page-movement-leader-and-follow)
+- **Work offline** — download productions (scripts, annotations, music, and blocking maps) for use without an internet connection — see [Navigating the App](navigating-the-app.md#offline-mode)
 - **Collaborate in real time** with your team — changes sync across all devices
 
 ## Where does it run?

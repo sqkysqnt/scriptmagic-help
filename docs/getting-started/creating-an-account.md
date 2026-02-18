@@ -40,6 +40,16 @@ If you don't have an invitation link, you can request an account from the login 
 
 Your request will be reviewed by a production admin. If approved, you'll receive an email with instructions to complete your account setup.
 
+## Forgot password
+
+If you've forgotten your password:
+
+1. Go to the ScriptMagic login page
+2. Click **Forgot Password**
+3. Enter the email address associated with your account
+4. Check your email for a password reset link
+5. Click the link and set a new password
+
 ## Next steps
 
 Once your account is created, learn how to [navigate the app](navigating-the-app.md) or [join a production](joining-a-production.md) you've been invited to.

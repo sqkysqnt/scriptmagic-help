@@ -52,22 +52,45 @@ Toggle the eye icon next to any layer to show or hide it. This only affects your
 Each layer has configurable styling that applies to all annotations on that layer:
 
 - **Highlight color and opacity** — the default color for new highlights
-- **Border** — optional border color and width
-- **Text styling** — font, size, bold/italic/underline for text notes
-- **Cue styling** — moment color, cue text appearance, connector position (for cue layers)
+- **Border** — optional border color and strength (0.5–5.0)
+- **Text styling** — font, size, bold/italic/underline, and text color for text notes
+- **Cue styling** — moment color, moment style (highlight or line), cue text appearance, connector position, and default cue side (for cue layers)
+
+Individual annotations can override their layer's styling — see [per-cue overrides](cues.md#per-cue-overrides) and [per-highlight overrides](highlights.md#per-highlight-format-overrides).
 
 ## Cue layers
 
-Any layer can be marked as a **cue layer** in its settings. When enabled, cues on that layer appear in the [cue list panel](cues.md#cue-list-panel), making it easy to track cues across the script.
+Any layer can be marked as a **cue layer** in its settings. When enabled:
+
+- Cues on that layer appear in the [cue list panel](cues.md#cue-list-panel)
+- A **cue prefix** is auto-derived from the layer name (e.g., "LX" for "Lighting Cues")
+- You can set a **default cue side** (left, right, or choice) to speed up cue placement
+- You can configure a **default text** template for new cues
 
 !!! tip
     Create separate cue layers for each department (e.g., "LX Cues", "SFX Cues", "Video Cues") to keep things organized while still seeing all cues together in the cue list.
+
+## Sound DCA layers
+
+A layer can be marked as a **Sound DCA layer** to enable sound mixing markers. When active, a DCA toolbar appears above the script view showing:
+
+- **16 numbered DCA circles** (1–16) that you drag onto the script page to mark channel assignments
+- A **Mic Cue (MC) marker** for placing microphone change points
+- A **Clear page** button to remove all DCA markers from the current page
+
+DCA layer settings let you configure:
+
+- **Circle fill style** — filled or outline
+- **Circle color and size**
+- **Mic cue badge color and size**
+- **Snap lane position** — the default horizontal position where DCA markers align
 
 ## Permissions
 
 - You can always edit layers you created
 - Production team members can edit **Production** and **Design** visibility layers
 - **Me** and **Personal** layers can only be edited by their creator
+- The **My Notes** layer is always locked to "Me" visibility and cannot be changed
 - If you don't have edit access to a layer, you can still view its annotations (if the visibility allows it) but you can't modify them
 
 See [Roles & Permissions](../collaboration/roles-and-permissions.md) for more on how roles affect what you can do.
