@@ -1,16 +1,15 @@
 # What is ScriptMagic?
 
-ScriptMagic is a collaborative platform for script markup, rehearsal planning, and show preparation. It gives production teams a shared digital workspace to annotate scripts with performance notes, blocking directions, cues, and staging information.
+ScriptMagic is a collaborative platform for everyone in the production — from the early design process to closing night. Quickly make script changes so everyone can be on the same page. Whether you're in the rehearsal room taking blocking notes, playing back music, and roughing in cues, or in tech with designers adding and adjusting cues, ScriptMagic keeps everything together in one digital workspace. Stage managers can call shows directly from the digital script, and when you need a printed version, ScriptMagic can be exported and printed for more traditional show calling.
 
 ## Who is it for?
 
-ScriptMagic is built for anyone involved in putting on a show:
+ScriptMagic is built for everyone involved in putting on a show:
 
-- **Stage managers** tracking cues, blocking, and rehearsal notes
-- **Directors** marking blocking positions and scene notes
-- **Designers** (lighting, sound, video) placing cue markers on scripts
-- **Production teams** coordinating across departments
-- **Cast members** viewing their scripts and personal notes
+- **Stage managers** — The primary users. Track cues, blocking, and rehearsal notes. Call shows from the digital script or export and print for traditional show calling.
+- **Designers** (lighting, sound, video) — Add and adjust cues on the script. Use Sound DCA layers for microphone assignments.
+- **Directors** — Mark blocking positions, scene notes, and collaborate with the production team.
+- **Cast members** — View scripts, access personal notes, and stay on the same page as the rest of the team.
 
 ## What can you do with it?
 
@@ -21,7 +20,7 @@ ScriptMagic is built for anyone involved in putting on a show:
 - **Organize with layers** so each department or individual can have their own annotation space, including specialized cue layers and Sound DCA layers — see [Understanding Layers](../annotations/understanding-layers.md)
 - **Manage productions** including people, characters, and show structure (acts, scenes, songs) — see [Productions](../productions/creating-and-managing-productions.md)
 - **Generate reports** — breakdown by character or cast member, cue lists, cut cue reports, and cast sheets — see [Breakdown Reports](../productions/production-structure.md#breakdown-reports)
-- **Export annotated scripts** as PDFs with your chosen layers, variants, and annotations included — see [Sharing & Exporting](../collaboration/sharing-and-exporting.md)
+- **Export and print** annotated scripts as PDFs with your chosen layers, variants, and annotations — see [Sharing & Exporting](../collaboration/sharing-and-exporting.md)
 - **Sync pages in rehearsal** — use page movement leader/follow to keep everyone on the same page — see [Navigating the App](navigating-the-app.md#page-movement-leader-and-follow)
 - **Work offline** — download productions (scripts, annotations, music, and blocking maps) for use without an internet connection — see [Navigating the App](navigating-the-app.md#offline-mode)
 - **Collaborate in real time** with your team — changes sync across all devices

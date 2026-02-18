@@ -1,6 +1,6 @@
 # ScriptMagic Help Center
 
-Welcome to the ScriptMagic help center. Here you'll find guides for every feature in ScriptMagic — from uploading your first script to exporting a fully annotated prompt book.
+Welcome to the ScriptMagic help center. Here you'll find guides for every feature in ScriptMagic — from uploading your first script to calling a show from a fully annotated digital prompt book. Whether you're a stage manager, designer, or cast member, these articles will help you get the most out of ScriptMagic from first rehearsal to closing night.
 
 ## New to ScriptMagic?
 
