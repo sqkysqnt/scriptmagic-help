@@ -32,10 +32,12 @@ For stage managers, designers, technicians, and other crew members.
 Full access to manage the production.
 
 - Everything Production Team can do, plus:
+- Access the [production admin dashboard](../getting-started/navigating-the-app.md#production-admin-dashboard) (scroll control, communication broadcasts, activity log, layer management)
 - Edit production settings (name, dates, script, etc.)
 - Manage [people](../productions/people.md) (add, remove, change roles)
 - Manage [characters](../productions/characters.md) and [production structure](../productions/production-structure.md)
 - Send [invitations](inviting-team-members.md)
+- Set a [freeze date](../productions/creating-and-managing-productions.md#production-freeze) to lock changes after a deadline
 - Delete the production
 
 ## Quick reference
@@ -49,6 +51,7 @@ Full access to manage the production.
 | Export with cues | - | Yes | Yes |
 | Breakdown reports & cast sheets | - | Yes | Yes |
 | Blocking editor & people management | - | Yes | Yes |
+| Production admin dashboard | - | - | Yes |
 | Manage characters & structure | - | - | Yes |
 | Edit production settings | - | - | Yes |
 | Delete production | - | - | Yes |

@@ -54,12 +54,14 @@ Technical moments like set changes or blackouts. Each transition includes:
 
 ## Creating structure items
 
-Click the **Create** button for the type you want (act, scene, song, etc.). Items are auto-numbered when created (Act 1, Scene 1, etc.) and can be renamed.
+Click the **Create** button for the type you want (act, scene, song, etc.). Items are auto-numbered when created (Act 1, Scene 1, etc.) and can be renamed. Structure items can be reordered by drag-and-drop.
 
 Structure items support parent-child relationships:
 
 - **Acts** can contain scenes
 - **Scenes** can contain songs and transitions
+
+Deleting a parent item (e.g., an act) reassigns its children to the deleted item's parent level.
 
 ## Page links
 
@@ -95,3 +97,11 @@ Lists all [cut cues](../annotations/cues.md#cut-cues) across the production. You
 ### Cast Sheets
 
 Per-person script excerpts showing each cast member's scenes with page numbers, entrance/exit notes, and structure context. Exportable as individual PDFs or a batch PDF of all cast sheets.
+
+### Cues by Layer
+
+A detailed per-layer cue report with customizable column visibility, cut cue filtering, and sortable rows. Columns include cue number, cue text, page, associated cue number, moment, notes, status, and created by. Exportable to both CSV and PDF with professional formatting.
+
+### Duration Summary
+
+A hierarchical view of your production structure with duration calculations. Filter by structure type (acts, scenes, songs, intermissions, transitions), sort by tree order or duration, and view act subtotals and a grand total. Exportable to CSV and PDF.

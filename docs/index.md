@@ -32,9 +32,11 @@ Welcome to the ScriptMagic help center. Here you'll find guides for every featur
 | Create a blocking diagram | [The Blocking Editor](blocking/the-blocking-editor.md) |
 | Invite someone to my production | [Inviting Team Members](collaboration/inviting-team-members.md) |
 | Export an annotated PDF | [Sharing & Exporting](collaboration/sharing-and-exporting.md) |
+| Export just the blocking maps | [Sharing & Exporting](collaboration/sharing-and-exporting.md) |
 | Generate a breakdown or cast report | [Breakdown Reports](productions/production-structure.md#breakdown-reports) |
-| Draw on a blocking map | [The Blocking Editor](blocking/the-blocking-editor.md#freehand-drawing) |
+| Draw or add arrows on a blocking map | [The Blocking Editor](blocking/the-blocking-editor.md#freehand-drawing) |
 | Add scenery or set pieces to a blocking map | [The Blocking Editor](blocking/the-blocking-editor.md#scenery-items) |
+| Broadcast a message or timer to the team | [Production Admin Dashboard](getting-started/navigating-the-app.md#production-admin-dashboard) |
 | Sync pages during rehearsal | [Page Movement Leader and Follow](getting-started/navigating-the-app.md#page-movement-leader-and-follow) |
 | Use the app offline | [Navigating the App](getting-started/navigating-the-app.md#offline-mode) |
 | Set up a venue with stage dimensions | [Company Management](account/company-management.md#venues) |

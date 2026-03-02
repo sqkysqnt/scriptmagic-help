@@ -14,13 +14,19 @@ The script view displays your script one page at a time, with tools for navigati
 
 ## Zooming
 
-Use the zoom controls to adjust the view:
+A compact zoom control toolbar is displayed at the bottom of the script view:
 
-- **Zoom in / out buttons** — step by 25% increments
-- **Preset levels** — choose from 50%, 75%, 100%, 125%, 150%, or 200% via the dropdown
-- **Zoom range** — from 50% up to 500%
+- **Zoom out button** — decrease zoom by 25% per click (minimum 50%)
+- **Zoom percentage display** — shows the current zoom level. Click to reset to 100%.
+- **Zoom in button** — increase zoom by 25% per click (maximum 300%)
 
-The page stays centered as you zoom.
+### Pinch-to-zoom
+
+On iOS and Android, pinch-to-zoom is supported directly on the script page. When zoomed in past 100%, you can pan by dragging to view different parts of the page.
+
+### Move / Pan mode
+
+On web and desktop, use the **Move / Pan** toggle in the toolbar to enable click-drag panning. This is useful when zoomed in to navigate around the page without accidentally creating annotations.
 
 ## Scrolling
 

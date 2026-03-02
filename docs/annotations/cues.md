@@ -19,6 +19,10 @@ The cue text box can appear on the left or right side of the moment, and the con
 
 If the layer has a **default cue side** set to Left or Right, the text box is placed on that side automatically. If set to "Choice", you'll be prompted to choose the side when creating the cue.
 
+### Automatic text extraction (OCR)
+
+When you place a cue moment on the script, ScriptMagic automatically reads the text under the moment highlight using OCR (optical character recognition) and saves it as the moment description. If you move the moment to a different position, the text is re-extracted automatically. This happens silently in the background — you don't need to do anything extra. OCR works on-device on iOS and Android, and via the cloud on web.
+
 !!! note
     A layer must be marked as a "cue layer" in its settings before you can create cues on it. See [Cue layers](#cue-layers) below.
 

@@ -4,20 +4,20 @@ ScriptMagic lets you export your annotated script as a PDF to share with others 
 
 ## Exporting a script
 
-1. Open the export dialog from the script view
+1. Open the export dialog from the script view toolbar
 2. Configure your export settings:
+
+**Layers (left column):**
+
+Choose which [layers](../annotations/understanding-layers.md) to include in the export. Use the **All** or **None** buttons to quickly select or deselect all layers. Only layers you have permission to view are listed.
 
 **Variant:**
 
 Select which [script variant](../scripts/script-variants.md) to export. This determines the page order and which pages are included.
 
-**Layers:**
-
-Choose which [layers](../annotations/understanding-layers.md) to include in the export. Only layers you have permission to view are available. Hidden layers are excluded by default.
-
 **Page range:**
 
-Export the entire script (default) or specify a custom page range.
+Export the entire script (default) or specify a custom page range with From and To fields.
 
 **Annotations:**
 
@@ -36,6 +36,17 @@ Choose how [blocking maps](../blocking/the-blocking-editor.md) are included in t
 - **Inline thumbnail** — small [thumbnails](../blocking/blocking-thumbnails.md) drawn on script pages at their tag positions
 - **Insert after page** — full blocking pages inserted after each script page that has blocking tags
 - **All at end** — all blocking pages appended at the end of the export
+- **Blocking only** — export only the blocking map pages without any script pages. Useful for sharing blocking diagrams separately.
+
+For full-page blocking modes (Insert after page, All at end, Blocking only), you can choose the page orientation:
+
+- **Landscape** (default) — horizontal pages, better for wide stage layouts
+- **Portrait** — vertical pages
+
+**Export mode:**
+
+- **Server export** — generates the PDF on cloud servers for faster processing (available based on your company's plan)
+- **Device export** — generates the PDF on your local device. Always available and works offline.
 
 3. Generate the export — a progress dialog shows the rendering status
 

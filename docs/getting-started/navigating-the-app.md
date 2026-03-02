@@ -29,7 +29,8 @@ The script view is where you'll spend most of your time. This is the main worksp
 
 - **Script pages** — The central area displays your script pages. Scroll vertically to move through the page content, and use navigation controls to move between pages.
 - **Page navigation** — Previous/Next buttons and a page number input let you jump to any page. Supports Roman numerals for front matter (i, ii, iii). See [Viewing & Navigating Pages](../scripts/viewing-and-navigating-pages.md).
-- **Zoom controls** — Zoom in and out with preset levels (50% to 200%) or step controls. The zoom range goes up to 500%.
+- **Zoom controls** — A compact zoom toolbar with zoom in/out buttons (25% steps), a percentage display, and tap-to-reset. Range: 50% to 300%. See [Zooming](../scripts/viewing-and-navigating-pages.md#zooming).
+- **Pinch-to-zoom** — On mobile and tablet, pinch to zoom in and out on the script page. Pan by dragging when zoomed in.
 - **Script variant selector** — If your production has multiple [script variants](../scripts/script-variants.md), switch between them from the toolbar.
 
 ### Toolbar
@@ -41,11 +42,14 @@ The toolbar at the top of the script view includes:
 - **Characters** — Open the character management dialog
 - **People** — Manage production members (Production Team and Admin only)
 - **Blocking Editor** — Open the [blocking editor](../blocking/the-blocking-editor.md) (Production Team and Admin only)
+- **Production Admin** — Open the [production admin dashboard](#production-admin-dashboard) (Production Team and Admin only)
 - **Reports** — Open the [breakdown reports](../annotations/cues.md#reports) dialog
 - **Export Script** — Export the annotated script as a PDF. See [Sharing & Exporting](../collaboration/sharing-and-exporting.md).
 - **Inspect Highlights** — Toggle inspection mode to view highlight details on tap
 - **Cut Cues** — Toggle visibility of [cut cues](../annotations/cues.md#cut-cues) on the script
+- **Move / Pan** — Toggle click-drag panning on web (on mobile, pan is automatic when zoomed in)
 - **Active layer badge** — Shows the name of your currently active layer in the toolbar
+- **Notification bell** — Shows unread notification count. See [Notifications](#notifications).
 
 ### Side panels
 
@@ -70,6 +74,25 @@ ScriptMagic supports synchronized page navigation for rehearsals:
 
 - **Page Movement Leader** — Click the leader toggle in the toolbar to broadcast your page position to everyone in the production. A red indicator shows when you're the active leader.
 - **Follow** — Click the follow toggle to sync your view with the leader's page navigation. The leader's name is displayed while following.
+
+## Notifications
+
+The notification bell in the toolbar shows your unread notification count. Tap the bell to open the notification panel. Notifications include:
+
+- **Script imported** — when a script import completes on the server
+- **Feedback updated** — when your submitted feedback receives a status change
+- **Site announcements** — system-wide messages from ScriptMagic
+
+From the notification panel you can filter by type (all, unread, feedback, imports, announcements), mark all as read, or swipe to delete individual notifications.
+
+## Production admin dashboard
+
+The production admin dashboard (available to Production Team and Admin roles) provides centralized controls for managing a live production:
+
+- **Scroll Control** — Take or assign page movement leader status, or clear the leader
+- **Layers** — View all production layers, change layer visibility, and copy layers as personal copies
+- **Communication** — Broadcast messages to all connected users, start countdown timers (for breaks, places calls, etc.), and pin persistent notes visible to the whole team
+- **Activity** — View a real-time audit log of recent edits, broadcasts, and actions with filtering by user, layer, and activity type
 
 ## Outline panel
 
@@ -112,7 +135,8 @@ The account menu is available in the top-right corner of most screens. From here
 
 - **Edit Profile** — Update your name, phone, pronouns, address, emergency contact, and profile photo. See [Profile Settings](../account/profile-settings.md).
 - **Help** — Search the help documentation for answers to your questions
-- **Submit Feedback** — Send feedback to the ScriptMagic team
+- **Submit Feedback** — Report bugs or request features
+- **My Feedback** — View your submitted feedback history and track status updates
 - **About ScriptMagic** — View app version and information
 - **Legal** — View terms, privacy policy, and legal information
 - **Admin Dashboard** — Access administrative tools (visible to admins only)

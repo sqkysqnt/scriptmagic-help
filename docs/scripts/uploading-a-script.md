@@ -8,13 +8,21 @@ Scripts in ScriptMagic are uploaded as PDF files. Each page is processed into an
 
 ## How to upload
 
-1. Go to your [production's edit screen](../productions/creating-and-managing-productions.md#editing-a-production)
+1. Go to your [production's edit screen](../productions/creating-and-managing-productions.md#editing-a-production) or create a new production
 2. Click **Upload Script PDF** and select a file
 3. You'll see a confirmation dialog — click to proceed
-4. A progress indicator shows processing status (e.g., "Processing page 3 of 120...")
-5. When complete, the script is ready for viewing and annotation
+4. The PDF is processed and each page is converted to a high-resolution image
 
-During processing, each page of your PDF is converted to a high-resolution image. All pages are automatically grouped into a "Default" [variant](script-variants.md).
+All pages are automatically grouped into a "Default" [variant](script-variants.md).
+
+### Cloud import vs. device processing
+
+Depending on your company's plan, the PDF may be processed in one of two ways:
+
+- **Cloud import** — the PDF is uploaded to ScriptMagic's servers and processed there. A progress dialog tracks the status in real time. You can close the dialog and continue working — processing continues in the background, and you'll receive a [notification](../getting-started/navigating-the-app.md#notifications) when it's complete.
+- **Device processing** — the PDF is processed directly on your device. A progress indicator shows page-by-page status (e.g., "Processing page 3 of 120...").
+
+Both methods produce the same result.
 
 !!! note
     You need **Production Admin** or **Company Admin** permissions to upload or replace a script. See [Roles & Permissions](../collaboration/roles-and-permissions.md).

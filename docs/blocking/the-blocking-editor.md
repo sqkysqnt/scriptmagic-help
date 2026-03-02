@@ -45,9 +45,25 @@ The default mode. Click elements to select them, drag to move them. Select multi
 
 Freehand drawing directly on the canvas using pen, highlighter, or eraser tools. See [Freehand drawing](#freehand-drawing).
 
+### Arrow tool
+
+Place directional arrows on the canvas to indicate movement paths, sightlines, or crossover patterns. Click once to set the tail (start), then click again to set the head (end).
+
+Double-tap an arrow to open its context menu with options:
+
+- **Dash style** — Solid, dashed, or dotted
+- **Arrowhead type** — Filled, open, or none
+- **Arrowhead size** — Small, medium, or large
+- **Color** — Choose from 12 preset colors
+- **Weight** — Adjust stroke width from 0.5 to 8.0
+- **Flip direction** — Reverse the arrow
+- **Duplicate** — Create a copy offset slightly from the original
+
+Arrows can be dragged by their body to reposition, or by their endpoints to adjust direction.
+
 ### Scale calibration tool
 
-Set a real-world scale for your stage by placing two points and entering the distance between them (in feet or meters). This calibration is used by scenery items and the [dance placement ribbon](#dance-placement-ribbon) to display accurate dimensions.
+Set a real-world scale for your stage by placing two points and entering the distance between them (in feet or meters). This calibration is used by scenery items and the [dance placement ribbon](#dance-placement-ribbon) to display accurate dimensions. Calibrating the scale also auto-resizes library scenery items to their real-world dimensions.
 
 ### Quick actions
 
@@ -115,7 +131,7 @@ A horizontal numbered line placed on the canvas for choreography spacing. The ri
 
 ## Grid overlay
 
-Toggle the stage grid from the floating toolbar to display a reference grid over the canvas. The grid can be configured for spacing and snap-to-grid behavior.
+Toggle the stage grid from the floating toolbar to display a reference grid over the canvas. The grid can be configured for spacing and snap-to-grid behavior. The grid origin (crosshair) can be dragged to reposition, and locked to prevent accidental movement.
 
 ## Background images
 
@@ -141,9 +157,24 @@ A blocking map can be saved as a **template** that contains only the stage setup
 
 Blocking maps start as **drafts** that are only visible to their creator in the Maps panel. Once saved, they become **published** and are visible to all team members.
 
+## Exporting a blocking map
+
+Individual blocking maps can be exported directly from the editor toolbar's **More** menu:
+
+- **Export as PNG** — saves the canvas as a high-resolution image
+- **Export as PDF** — saves the canvas as a PDF page
+
+On web, the file downloads directly. On mobile and desktop apps, it saves to your device storage.
+
+For exporting blocking maps alongside your script, see [Sharing & Exporting](../collaboration/sharing-and-exporting.md).
+
+## Cloning a map
+
+From the **More** menu, choose **Clone** to create a copy of the current blocking map with all elements, background, and settings. The clone gets a "(Copy)" suffix in its title.
+
 ## Auto-save
 
-Changes are automatically saved shortly after you stop making edits. A "Saving..." indicator appears in the toolbar while a save is in progress. Each save also generates a [thumbnail](blocking-thumbnails.md) for the blocking map.
+Changes are automatically saved shortly after you stop making edits. A "Saving..." indicator appears in the toolbar while a save is in progress. Each save also generates a [thumbnail](blocking-thumbnails.md) for the blocking map — one for the director view and one for the performer view.
 
 ## Related
 

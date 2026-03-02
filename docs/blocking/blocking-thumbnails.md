@@ -10,7 +10,7 @@ Blocking thumbnails are small preview images that give you a quick visual refere
 
 ## How thumbnails are generated
 
-Thumbnails are created automatically every time you save a blocking map. The system captures a snapshot of the canvas — including all visible [character stickers](character-stickers.md) and the background image — and saves it as a preview image.
+Thumbnails are created automatically every time you save a blocking map. The system captures a high-resolution snapshot of the canvas — including all visible [character stickers](character-stickers.md), scenery, drawings, arrows, and the background image — and saves it as a preview image. Two thumbnails are generated: one for the director view and one for the [performer view](the-blocking-editor.md#quick-actions).
 
 You don't need to do anything to generate or update thumbnails. They refresh automatically with each save.
 
@@ -19,6 +19,8 @@ You don't need to do anything to generate or update thumbnails. They refresh aut
 Thumbnails show:
 
 - All character stickers on visible layers
+- Scenery items, arrows, drawings, and text labels
+- The title block
 - The background image (if present) with any transformations applied
 
 Thumbnails do **not** include the editor's toolbar, sidebar, or metadata fields — just the canvas content.

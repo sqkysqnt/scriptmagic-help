@@ -14,7 +14,8 @@ Highlights are colored overlays you place on script pages to mark important area
 - **Text** — A highlight that contains editable text. Double-click to type inside it. See also [Notes](notes.md).
 - **Blackout** — A solid black rectangle for redacting or covering content.
 - **Whiteout** — A solid white rectangle with a light border for covering content.
-- **DCA marker** — A circular numbered marker (1–16) used for sound cue assignments.
+- **Warning / Standby** — Specialized boxes for cue warnings and standbys. These auto-layout to avoid overlapping and suppress duplicate headings when stacked. Colors and styling are configured globally by site admins.
+- **DCA marker** — A circular numbered marker (1–16) used for sound cue assignments. See [Sound DCA Layers](understanding-layers.md#sound-dca-layers).
 
 ## Editing a highlight
 

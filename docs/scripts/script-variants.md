@@ -21,7 +21,7 @@ Drag and drop pages within the variant grid to rearrange them.
 
 ### Add pages
 
-- **From a new PDF** — upload an additional PDF to add its pages to the variant
+- **From a new PDF** — upload an additional PDF to add its pages to the variant. Depending on your company's plan, the PDF can be processed via [cloud import](uploading-a-script.md#cloud-import-vs-device-processing) or on your device.
 - **Blank pages** — insert blank pages at any position
 
 ### Select and move pages

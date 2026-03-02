@@ -15,23 +15,28 @@ To create a new production, you'll need **Production Admin** or **Company Admin*
 - **Description** (optional)
 - **Theatre company** (required) — select which [company](../account/company-management.md) this production belongs to
 - **Venue** (optional)
-- **Rights holder information** (optional) — for documenting licensing and contracts
+- **Rights holder information** (optional) — for documenting licensing company, contract notes, and billing requirements
 
 **Dates:**
 
 - **Production start date** — when rehearsals or production work begins
 - **Opening date** — the official opening performance
-- **Freeze date** — the deadline after which script and blocking changes are locked
+- **Freeze date** — after this date, the production becomes read-only for non-admin users. See [Production freeze](#production-freeze).
 
 **Script & media:**
 
-- **Script PDF** — upload your master script (see [Uploading a Script](../scripts/uploading-a-script.md))
+- **Script PDF** — upload your master script. Can be processed on the server (cloud import) or on your device. See [Uploading a Script](../scripts/uploading-a-script.md).
 - **Production image** — a poster or cover image for the production card
 - **Pages before script page 1** — set an offset if your PDF contains cover pages or front matter before the actual script begins (see [Page Offset](../scripts/uploading-a-script.md#page-offset))
 
 **External resources:**
 
-- **External links** — add URLs to external resources like Google Drive folders, chorus tracks, or reference videos. Each link has a label and URL.
+- **External links** — add labeled URLs to external resources like Google Drive folders, Dropbox links, Discord servers, or reference videos. Each link has a label and URL.
+
+**Sharing:**
+
+- **Production admins** — enter email addresses to add people as production admins. Existing users are added immediately; unknown emails are pre-approved for when they create an account.
+- **Share with users** — enter email addresses to grant access. Existing users get immediate access; new emails are queued for invitation.
 
 3. Click **Save** to create the production
 
@@ -43,13 +48,20 @@ Click the **Edit** button on a production card (visible if you have edit permiss
 - Changing the production image
 - Updating dates and external links
 - Managing who the production is shared with
+- Opening the [script variants](../scripts/script-variants.md) manager
 
 !!! warning
     Replacing the script PDF may break existing annotations, blocking, and page references. You'll see a confirmation warning before this change is applied.
 
+## Production freeze
+
+When a production's **freeze date** passes, it becomes read-only for all non-admin users. This prevents accidental changes during performances. Site admins and company admins can still make edits when a production is frozen.
+
+Frozen productions show visual indicators that editing is disabled, and all modification controls (layer visibility changes, annotation edits, etc.) are locked.
+
 ## Deleting a production
 
-Productions can be permanently deleted from the edit screen. This removes the production and all associated files. This action cannot be undone.
+Productions can be permanently deleted from the edit screen. This removes the production and all associated files (script pages, images, blocking maps). This action cannot be undone.
 
 ## Production dashboard
 
