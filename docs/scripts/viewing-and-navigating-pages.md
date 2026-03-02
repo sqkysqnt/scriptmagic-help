@@ -9,6 +9,8 @@ The script view displays your script one page at a time, with tools for navigati
 - **Roman numerals** — for front matter pages before "Page 1" (set via the [page offset](uploading-a-script.md#page-offset)), you can enter Roman numerals (i, ii, iii, etc.)
 - **Page counter** — shows your current position (e.g., "5 / 120")
 
+![Page navigation controls — previous/next buttons, page input, and page counter](../images/screenshots/13.png)
+
 !!! tip
     The next few pages are preloaded in the background so navigation feels smooth, even on slower connections.
 
@@ -19,6 +21,8 @@ A compact zoom control toolbar is displayed at the bottom of the script view:
 - **Zoom out button** — decrease zoom by 25% per click (minimum 50%)
 - **Zoom percentage display** — shows the current zoom level. Click to reset to 100%.
 - **Zoom in button** — increase zoom by 25% per click (maximum 300%)
+
+![Zoom controls — zoom toolbar with in/out buttons and percentage display](../images/screenshots/14.png)
 
 ### Pinch-to-zoom
 

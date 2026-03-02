@@ -12,6 +12,8 @@ Production admins can invite new people to join a production via email. This is 
     - **Role** — choose Cast, Production Team, or Production Admin (see [Roles & Permissions](roles-and-permissions.md))
 4. Send the invitation
 
+![Invitation form — name, email, and role selection fields](../images/screenshots/51.png)
+
 ## What happens next
 
 **If the email belongs to an existing ScriptMagic user:**

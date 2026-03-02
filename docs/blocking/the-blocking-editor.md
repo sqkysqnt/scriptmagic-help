@@ -33,6 +33,8 @@ Six tabs:
 - **Maps** — Browse all blocking maps in the production. Switch between maps, create new ones, or delete existing ones without leaving the editor.
 - **Properties** — Context-sensitive panel showing details for the selected element. Edit labels, spike colors, dimensions, z-order, and lock state.
 
+![Blocking editor — full layout with canvas, info bar, and sidebar](../images/screenshots/29.png)
+
 ## Canvas tools
 
 The floating toolbar at the bottom of the canvas provides tool modes and quick actions:
@@ -61,6 +63,8 @@ Double-tap an arrow to open its context menu with options:
 
 Arrows can be dragged by their body to reposition, or by their endpoints to adjust direction.
 
+![Arrow tool — arrow on canvas with context menu showing style options](../images/screenshots/30.png)
+
 ### Scale calibration tool
 
 Set a real-world scale for your stage by placing two points and entering the distance between them (in feet or meters). This calibration is used by scenery items and the [dance placement ribbon](#dance-placement-ribbon) to display accurate dimensions. Calibrating the scale also auto-resizes library scenery items to their real-world dimensions.
@@ -84,6 +88,8 @@ When the **Draw** tool is active, a drawing sub-toolbar appears with:
 
 Drawings are saved as canvas elements and can be placed on specific layers.
 
+![Freehand drawing toolbar — pen, highlighter, eraser, color palette, and stroke width](../images/screenshots/31.png)
+
 ## Scenery items
 
 The Scenery panel lets you place set pieces and props on the canvas:
@@ -104,6 +110,8 @@ View and select scenery items that are currently placed on the canvas.
 
 Each scenery item can have a **spike tape color** — a colored marker showing where the item should be placed on the stage floor. Set the spike color from the [Properties panel](#sidebar-right).
 
+![Scenery panel — library items, production assets, and on-canvas list](../images/screenshots/32.png)
+
 ## Character groups
 
 Select 2 or more character stickers and click **Group** to create a character group. Groups render as a dashed rectangle enclosing the member characters with a label (e.g., "Ensemble Left", "Dancers"). Moving the group moves all member characters together. Groups can be ungrouped from the Properties panel.
@@ -116,6 +124,8 @@ Add free-form text labels directly on the stage diagram for stage directions, po
 
 When you drag a scenery item or sticker across the canvas, **alignment guides** appear automatically as magenta lines showing where the element's edges or center line up with other elements. Guides detect alignment on left, center, and right edges horizontally, and top, center, and bottom edges vertically. This makes it easy to line up set pieces precisely without relying on a grid.
 
+![Alignment guides — magenta snap lines during element drag](../images/screenshots/33.png)
+
 ## Dance placement ribbon
 
 A horizontal numbered line placed on the canvas for choreography spacing. The ribbon displays numbers counting outward from center (0) in both directions (...3 2 1 0 1 2 3...), with spacing equal to one real-world unit (foot or meter) based on the map's [scale calibration](#scale-calibration-tool).
@@ -126,12 +136,16 @@ A horizontal numbered line placed on the canvas for choreography spacing. The ri
 - **Snap** to grid lines and other scenery elements when positioning
 - **Performer view** — numbers rotate for readability when the canvas is in performer view
 
+![Dance placement ribbon — numbered spacing line on the blocking canvas](../images/screenshots/34.png)
+
 !!! note
     If no scale calibration is set, the ribbon shows a "Set Scale for accurate spacing" overlay. Calibrate your stage first for accurate measurements.
 
 ## Grid overlay
 
 Toggle the stage grid from the floating toolbar to display a reference grid over the canvas. The grid can be configured for spacing and snap-to-grid behavior. The grid origin (crosshair) can be dragged to reposition, and locked to prevent accidental movement.
+
+![Grid overlay — reference grid on canvas with draggable origin crosshair](../images/screenshots/35.png)
 
 ## Background images
 
@@ -165,6 +179,8 @@ Individual blocking maps can be exported directly from the editor toolbar's **Mo
 - **Export as PDF** — saves the canvas as a PDF page
 
 On web, the file downloads directly. On mobile and desktop apps, it saves to your device storage.
+
+![Blocking map export — PNG and PDF export options in the More menu](../images/screenshots/36.png)
 
 For exporting blocking maps alongside your script, see [Sharing & Exporting](../collaboration/sharing-and-exporting.md).
 

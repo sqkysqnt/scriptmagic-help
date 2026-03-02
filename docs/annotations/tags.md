@@ -33,6 +33,8 @@ Blocking tags display [blocking map](../blocking/the-blocking-editor.md) thumbna
 - **Editing** — Click "Edit" to open the blocking map in the [blocking editor](../blocking/the-blocking-editor.md)
 - **Creating** — Use the Blocking panel in the script view, or create blocking maps from the blocking editor
 
+![Tags on a script page — music tag, video tag, and blocking tag examples](../images/screenshots/25.png)
+
 ## Common behavior
 
 All tag types share these properties:

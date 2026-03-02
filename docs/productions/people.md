@@ -54,6 +54,8 @@ Each person has two levels of information:
 - Role override (can differ from company role)
 - Assigned [characters](characters.md)
 
+![People management — person list with company and production details panel](../images/screenshots/42.png)
+
 !!! tip
     This two-tier approach means if someone is in multiple productions for the same company, their core contact information is maintained in one place.
 

@@ -17,6 +17,8 @@ Highlights are colored overlays you place on script pages to mark important area
 - **Warning / Standby** — Specialized boxes for cue warnings and standbys. These auto-layout to avoid overlapping and suppress duplicate headings when stacked. Colors and styling are configured globally by site admins.
 - **DCA marker** — A circular numbered marker (1–16) used for sound cue assignments. See [Sound DCA Layers](understanding-layers.md#sound-dca-layers).
 
+![Highlight types — basic, text, blackout, whiteout, and warning/standby examples on a script page](../images/screenshots/16.png)
+
 ## Editing a highlight
 
 - **Move** — Click and drag a highlight to reposition it
@@ -46,6 +48,8 @@ Individual highlights can override their layer's default styling. Click the form
 - **Bold, italic, underline** — text formatting overrides
 
 Overridden properties are visually distinguished in the dialog. A badge shows the number of active overrides. You can reset individual properties or all overrides at once.
+
+![Per-highlight format override — color, border, and text override dialog](../images/screenshots/17.png)
 
 ## Deleting a highlight
 

@@ -10,6 +10,8 @@ Cues are specialized annotations designed for tracking technical and performance
 
 The cue text box can appear on the left or right side of the moment, and the connector can attach to the top or bottom.
 
+![Cue anatomy — moment marker, cue text box, and connector line on a script page](../images/screenshots/19.png)
+
 ## Creating a cue
 
 1. Make sure your active [layer](understanding-layers.md) is a **cue layer** (configured in layer settings)
@@ -22,6 +24,8 @@ If the layer has a **default cue side** set to Left or Right, the text box is pl
 ### Automatic text extraction (OCR)
 
 When you place a cue moment on the script, ScriptMagic automatically reads the text under the moment highlight using OCR (optical character recognition) and saves it as the moment description. If you move the moment to a different position, the text is re-extracted automatically. This happens silently in the background — you don't need to do anything extra. OCR works on-device on iOS and Android, and via the cloud on web.
+
+![Cue with OCR — moment with automatically extracted script text](../images/screenshots/20.png)
 
 !!! note
     A layer must be marked as a "cue layer" in its settings before you can create cues on it. See [Cue layers](#cue-layers) below.
@@ -60,6 +64,8 @@ To mark a cue as cut, click the scissors icon next to it in the cue list panel. 
 
 The **Cut Cue Report** (available from the [Reports](#reports) button) shows all cut cues across your production, with the option to remove them all at once.
 
+![Cut cue — strikethrough moment, red cue text, and CUT badge in the cue list](../images/screenshots/22.png)
+
 ## Linked and unlinked cues
 
 Cues can be **linked** (placed on a specific page) or **unlinked** (created but not yet positioned on a page). Unlinked cues appear in the cue list with a red indicator and a "drag to place" instruction.
@@ -84,6 +90,8 @@ The cue list panel provides an overview of all cues across your cue layers. From
 - **Hide cut cues** — show only active (non-cut) cues
 - **Import / Export** cues as CSV — see [CSV import and export](#csv-import-and-export)
 
+![Cue list panel — full view with sort, filter, and group-by-page controls](../images/screenshots/21.png)
+
 !!! tip
     The cue list is a great way to review all your cues in order without scrolling through every page of the script.
 
@@ -100,6 +108,8 @@ Export cues to CSV with a customizable column selection. Available columns inclu
 - Cue Number, Text, Is Cut, Page Numbers, Layer, Notes, Moment, Associated Cue Number, Created By, Modified By, and more
 
 Choose to export all layers or a single layer, and preview the output before downloading.
+
+![CSV export — column selection dialog for cue export](../images/screenshots/23.png)
 
 ## Cue layers
 
@@ -136,6 +146,8 @@ The **Reports** button in the script view toolbar opens a multi-tab dialog with 
 - **Cue List** — Spreadsheet view of all cues with sortable columns, inline editing, and column filtering. Exportable to CSV.
 - **Cut Cues** — Lists all cut cues with the option to remove them
 - **Cast Sheets** — Per-person script excerpts with their scenes, exportable as individual or batch PDFs
+
+![Reports dialog — multi-tab view showing available report types](../images/screenshots/24.png)
 
 ## Permissions
 

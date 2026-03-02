@@ -40,6 +40,8 @@ To create a new production, you'll need **Production Admin** or **Company Admin*
 
 3. Click **Save** to create the production
 
+![Create production form — production details with dates, script upload, and sharing fields](../images/screenshots/40.png)
+
 ## Editing a production
 
 Click the **Edit** button on a production card (visible if you have edit permissions). From here you can update any of the fields above, including:
@@ -58,6 +60,8 @@ Click the **Edit** button on a production card (visible if you have edit permiss
 When a production's **freeze date** passes, it becomes read-only for all non-admin users. This prevents accidental changes during performances. Site admins and company admins can still make edits when a production is frozen.
 
 Frozen productions show visual indicators that editing is disabled, and all modification controls (layer visibility changes, annotation edits, etc.) are locked.
+
+![Production freeze — frozen production with read-only indicators](../images/screenshots/41.png)
 
 ## Deleting a production
 

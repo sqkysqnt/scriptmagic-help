@@ -17,6 +17,8 @@ The most common way to get started is through an invitation from your production
 4. Click **Create Account & Join**
 5. You'll be signed in and taken to your [productions dashboard](navigating-the-app.md#productions-dashboard)
 
+![Sign-up form — account creation form from an invitation link](../images/screenshots/10.png)
+
 !!! note
     Invitation links expire after **7 days**. If your link has expired, ask your production team to send a new one.
 

@@ -12,6 +12,8 @@ Notes are text-based annotations you can place anywhere on a script page. They'r
 
 Your note appears as a colored text box on the script page, visible to anyone who can see the layer it belongs to.
 
+![Text note — styled text note placed on a script page](../images/screenshots/18.png)
+
 ## Editing a note
 
 Double-click any text note to reopen the inline editor. You can change the text content and styling.

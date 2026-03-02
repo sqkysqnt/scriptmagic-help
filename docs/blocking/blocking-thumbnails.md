@@ -8,6 +8,8 @@ Blocking thumbnails are small preview images that give you a quick visual refere
 - **Blocking tags** — When a blocking map is placed on a script page as a [tag](../annotations/tags.md#blocking-tags), the thumbnail appears as a clickable preview card
 - **Exports** — Thumbnails can be included in [exported PDFs](../collaboration/sharing-and-exporting.md#exporting-a-script) as inline thumbnails or full blocking pages
 
+![Blocking thumbnails — thumbnail in sidebar list and as inline tag on a script page](../images/screenshots/39.png)
+
 ## How thumbnails are generated
 
 Thumbnails are created automatically every time you save a blocking map. The system captures a high-resolution snapshot of the canvas — including all visible [character stickers](character-stickers.md), scenery, drawings, arrows, and the background image — and saves it as a preview image. Two thumbnails are generated: one for the director view and one for the [performer view](the-blocking-editor.md#quick-actions).

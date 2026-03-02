@@ -41,6 +41,8 @@ Company creation requires [Site Admin](../collaboration/roles-and-permissions.md
 
 A company can have multiple admins for redundancy and shared management.
 
+![Company management — company details with admin list](../images/screenshots/54.png)
+
 ## Company people
 
 ScriptMagic uses a tiered data model for people:
@@ -62,6 +64,8 @@ Venues represent the physical stages or theater spaces your company uses. Each v
 - **Stage direction labels** — customizable positions for stage direction labels (SR, SL, US, DS, etc.)
 
 Venues are managed from the company management screen and can be linked to blocking maps across any production in the company.
+
+![Venue configuration — stage dimensions, ground plan, and template scenery](../images/screenshots/55.png)
 
 !!! tip
     Setting up a venue with your ground plan and standard scenery saves time — every new blocking map for that venue starts with the stage layout already in place.

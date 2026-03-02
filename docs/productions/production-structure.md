@@ -63,6 +63,8 @@ Structure items support parent-child relationships:
 
 Deleting a parent item (e.g., an act) reassigns its children to the deleted item's parent level.
 
+![Production structure — tree view with acts, scenes, songs, and transitions](../images/screenshots/46.png)
+
 ## Page links
 
 Each structure item can have a **page number** that links directly to that page in your script. Click the page number to jump there.
@@ -82,6 +84,8 @@ The Reports button in the script view toolbar opens a multi-tab reporting dialog
 
 A grid showing characters (rows) vs. scenes and songs (columns). The header follows your production hierarchy with acts, scenes, and songs grouped together. Useful for conflict checking and tracking who's on stage at the same time. Exportable to CSV.
 
+![Breakdown by character — character-vs-scene grid report](../images/screenshots/47.png)
+
 ### By Cast Member
 
 The same breakdown organized by person rather than character — shows all the characters each cast member plays and which scenes they're in. Exportable to CSV.
@@ -98,10 +102,16 @@ Lists all [cut cues](../annotations/cues.md#cut-cues) across the production. You
 
 Per-person script excerpts showing each cast member's scenes with page numbers, entrance/exit notes, and structure context. Exportable as individual PDFs or a batch PDF of all cast sheets.
 
+![Cast sheets — per-person scene excerpts with export options](../images/screenshots/48.png)
+
 ### Cues by Layer
 
 A detailed per-layer cue report with customizable column visibility, cut cue filtering, and sortable rows. Columns include cue number, cue text, page, associated cue number, moment, notes, status, and created by. Exportable to both CSV and PDF with professional formatting.
 
+![Cues by layer report — per-layer cue table with CSV/PDF export](../images/screenshots/49.png)
+
 ### Duration Summary
 
 A hierarchical view of your production structure with duration calculations. Filter by structure type (acts, scenes, songs, intermissions, transitions), sort by tree order or duration, and view act subtotals and a grand total. Exportable to CSV and PDF.
+
+![Duration summary — hierarchical view with act subtotals and grand total](../images/screenshots/50.png)

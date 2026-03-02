@@ -30,6 +30,8 @@ Drag and drop pages within the variant grid to rearrange them.
 - **Cut / Copy / Paste** — move or duplicate selected pages
 - **Delete** — remove selected pages from the variant (the underlying page files are not deleted)
 
+![Variants manager — page grid with reorder, cut/copy/paste, and add controls](../images/screenshots/15.png)
+
 ### Duplicate a variant
 
 Creates a copy of the variant with a new name. All page references are duplicated, but the actual pages are shared.

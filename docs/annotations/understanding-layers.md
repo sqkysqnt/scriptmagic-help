@@ -8,6 +8,8 @@ Think of layers like transparent sheets stacked on top of your script. Each laye
 
 Your **active layer** determines where new annotations are placed. When you create a highlight, note, or cue, it goes on whichever layer is currently selected.
 
+![Layers panel — layer list with visibility toggles and active layer indicator](../images/screenshots/26.png)
+
 ## Layer visibility types
 
 Each layer has a visibility setting that controls who can see and edit it:
@@ -58,6 +60,8 @@ Each layer has configurable styling that applies to all annotations on that laye
 
 Individual annotations can override their layer's styling — see [per-cue overrides](cues.md#per-cue-overrides) and [per-highlight overrides](highlights.md#per-highlight-format-overrides).
 
+![Layer styling dialog — highlight color, border, text, and cue style settings](../images/screenshots/27.png)
+
 ## Cue layers
 
 Any layer can be marked as a **cue layer** in its settings. When enabled:
@@ -84,6 +88,8 @@ DCA layer settings let you configure:
 - **Circle color and size**
 - **Mic cue badge color and size**
 - **Snap lane position** — the default horizontal position where DCA markers align
+
+![Sound DCA markers — DCA circles and mic cue marker on a script page](../images/screenshots/28.png)
 
 ## Permissions
 

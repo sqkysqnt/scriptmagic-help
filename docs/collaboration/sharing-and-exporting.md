@@ -48,6 +48,8 @@ For full-page blocking modes (Insert after page, All at end, Blocking only), you
 - **Server export** — generates the PDF on cloud servers for faster processing (available based on your company's plan)
 - **Device export** — generates the PDF on your local device. Always available and works offline.
 
+![Export dialog — full export settings with layers, variant, annotations, and blocking options](../images/screenshots/52.png)
+
 3. Generate the export — a progress dialog shows the rendering status
 
 ## Sharing

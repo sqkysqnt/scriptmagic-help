@@ -11,6 +11,8 @@ This is the most common path. A production admin or team lead sends you an invit
 3. If you're **already signed in** with the matching email, the production is added to your account automatically
 4. You'll be redirected to your productions dashboard with the new production listed
 
+![Invitation landing page — invitation details with sign-in/sign-up options](../images/screenshots/11.png)
+
 !!! warning
     Invitation links expire after **7 days**. If you see an "invitation expired" message, ask the person who invited you to resend it.
 

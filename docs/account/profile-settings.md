@@ -27,6 +27,8 @@ Your profile stores your personal information and preferences in ScriptMagic. Ac
 - **Notes / Accessibility / Medical info** — free text for any relevant information your production team should know
 - **Profile photo** — upload a headshot that appears as your avatar throughout the app. This photo can also be used on [character stickers](../blocking/character-stickers.md) in blocking maps when the sticker shape is set to "headshot."
 
+![Profile settings — personal information fields and profile photo](../images/screenshots/53.png)
+
 ## Resetting your password
 
 From the profile editor, click the **Reset Password** button. A password reset email will be sent to your account's email address. Follow the link in the email to set a new password.

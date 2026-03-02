@@ -13,6 +13,8 @@ Each character's sticker is customizable in the [Characters](../productions/char
 
 All stickers are the same size on the canvas for visual consistency.
 
+![Character stickers — various shapes and colors on the blocking canvas](../images/screenshots/37.png)
+
 ## Placing a sticker
 
 1. Open the **Characters tab** in the blocking editor's right sidebar
@@ -33,6 +35,8 @@ Long-press and drag any sticker on the canvas to reposition it. The sticker foll
 ## Grouping characters
 
 When 2 or more character stickers are selected, a **Group** button appears in the toolbar and the Properties panel. See [Character Groups](the-blocking-editor.md#character-groups) for details on how groups work.
+
+![Character group — dashed rectangle around grouped stickers with label](../images/screenshots/38.png)
 
 ## Locking and z-order
 

@@ -24,6 +24,8 @@ Depending on your company's plan, the PDF may be processed in one of two ways:
 
 Both methods produce the same result.
 
+![Script upload — cloud import progress dialog](../images/screenshots/12.png)
+
 !!! note
     You need **Production Admin** or **Company Admin** permissions to upload or replace a script. See [Roles & Permissions](../collaboration/roles-and-permissions.md).
 

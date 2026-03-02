@@ -30,6 +30,8 @@ Each character has:
 - **Entrance/exit notes** — per-scene notes describing how the character enters or exits (e.g., "SR", "SL", "flies in"). These appear in [cast sheets](../annotations/cues.md#reports) and the breakdown report.
 - **Notes** — separate sections for cast notes, director notes, and team notes
 
+![Characters management — character list with sticker previews](../images/screenshots/43.png)
+
 ## Sticker appearance
 
 Every character has a customizable sticker used in [blocking maps](../blocking/the-blocking-editor.md). You can configure:
@@ -40,6 +42,8 @@ Every character has a customizable sticker used in [blocking maps](../blocking/t
 - **Text** — initials or a custom abbreviation (auto-derived from the character name if left blank)
 
 Click the sticker preview on a character to open the sticker editor and customize these settings. See [Character Stickers](../blocking/character-stickers.md) for details on how stickers work in the blocking editor.
+
+![Sticker editor — shape, fill color, border color, and text customization](../images/screenshots/44.png)
 
 ## Assigning people to characters
 
@@ -56,6 +60,8 @@ Multiple people can be assigned to a single character for ensemble roles. When y
 2. Click **Select scenes...** or **Select songs...**
 3. Check the scenes or musical numbers the character appears in
 4. Filter by name to find specific items
+
+![Scene/song assignment — character-to-structure assignment dialog](../images/screenshots/45.png)
 
 !!! tip
     If a character is assigned to a song that's nested inside a scene, the parent scene is automatically shown as inherited — you don't need to assign both manually.
