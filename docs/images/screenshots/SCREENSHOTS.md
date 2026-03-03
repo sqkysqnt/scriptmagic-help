@@ -105,10 +105,10 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 
 | # | Filename | Description | Capture notes | Exists | Uploaded |
 |---|----------|-------------|---------------|--------|----------|
-| 29 | `29.png` | **Blocking editor layout** — Full editor with canvas, info bar, and sidebar | Wide shot showing the complete editor: info bar at top, canvas with characters and scenery, sidebar with a tab open | — | — |
-| 30 | `30.png` | **Arrow tool** — Arrow on canvas with context menu open | Show an arrow placed on the canvas with the double-tap context menu visible (dash style, arrowhead, color, weight options) | — | — |
-| 31 | `31.png` | **Freehand drawing toolbar** — Drawing sub-toolbar with pen, highlighter, eraser, colors | Show the drawing toolbar with pen/highlighter/eraser icons, color palette, and stroke width slider. A few strokes on the canvas. | — | — |
-| 32 | `32.png` | **Scenery panel** — Library items, production assets, and on-canvas list | Show the scenery sidebar tab with library items (platforms, flats, furniture thumbnails) | — | — |
+| 29 | `29.png` | **Blocking editor layout** — Full editor with canvas, info bar, and sidebar | Wide shot showing the complete editor: info bar at top, canvas with characters and scenery, sidebar with a tab open | Yes | 2026-03-03 |
+| 30 | `30.png` | **Arrow tool** — Arrow on canvas with context menu open | Show an arrow placed on the canvas with the double-tap context menu visible (dash style, arrowhead, color, weight options) | Yes | 2026-03-03 |
+| 31 | `31.png` | **Freehand drawing toolbar** — Drawing sub-toolbar with pen, highlighter, eraser, colors | Show the drawing toolbar with pen/highlighter/eraser icons, color palette, and stroke width slider. A few strokes on the canvas. | Yes | 2026-03-03 |
+| 32 | `32.png` | **Scenery panel** — Library items, production assets, and on-canvas list | Show the scenery sidebar tab with library items (platforms, flats, furniture thumbnails) | Yes | 2026-03-03 |
 | 33 | `33.png` | **Alignment guides** — Magenta snap lines during element drag | Show a scenery item being dragged with magenta alignment lines snapping to other elements | — | — |
 | 34 | `34.png` | **Dance placement ribbon** — Numbered spacing line on the blocking canvas | Show the ribbon on the canvas with numbers counting outward from center (3 2 1 0 1 2 3) | — | — |
 | 35 | `35.png` | **Grid overlay** — Reference grid on canvas with draggable origin crosshair | Show the canvas with the grid visible and the origin crosshair indicator | — | — |
