@@ -1,6 +1,6 @@
 # Screenshot Reference
 
-This file identifies all screenshots used throughout the ScriptMagic help articles. Each screenshot is numbered and described below. Place the captured screenshot in this directory using the filename listed (e.g., `01.png`).
+This file identifies all screenshots used throughout the ScriptMagic help articles. Each screenshot is numbered and described below. Place the captured screenshot in this directory using the filename listed (e.g., `1.png`).
 
 ---
 
@@ -10,15 +10,15 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 
 | # | Filename | Description | Capture notes |
 |---|----------|-------------|---------------|
-| 01 | `01.png` | **Productions dashboard** — Production cards with cover images, countdown timers, and action buttons | Show 2–3 production cards, one with a countdown ("Opens in 5 days"), one with the celebration banner |
-| 02 | `02.png` | **Script view overview** — Full workspace layout with toolbar, side panels, and script page | Wide shot showing toolbar at top, a script page in center, and one side panel open (e.g., Layers) |
-| 03 | `03.png` | **Script view toolbar** — Close-up of the toolbar buttons | Crop to just the toolbar row; show undo/redo, structure, characters, people, blocking, admin, reports, export, inspect, cut cues, move/pan, layer badge, notification bell |
-| 04 | `04.png` | **Outline panel** — Production structure tree with timers and run time calculator | Show the outline panel with acts/scenes/songs, a running timer (red elapsed time), and the run time calculator at the bottom |
-| 05 | `05.png` | **DCA toolbar** — Numbered DCA circles and Mic Cue marker above the script | Show the toolbar with 16 numbered circles and MC marker visible above the script page |
-| 06 | `06.png` | **Notification panel** — Notification list with filter tabs | Show the panel open with a few notifications (import complete, feedback update) and the filter tabs |
-| 07 | `07.png` | **Production admin dashboard** — Scroll control, communication, layers, and activity tabs | Show the dashboard with the Communication tab active, showing a broadcast message or countdown timer |
-| 08 | `08.png` | **Offline mode dialog** — Component selection with download progress | Show the download dialog with checkboxes for Script pages, Annotations, Music, Blocking maps and size estimates |
-| 09 | `09.png` | **Page movement leader/follow** — Toolbar controls with active leader indicator | Close-up of the leader/follow toggles in the toolbar, with the red leader indicator active |
+| 01 | `1.png` | **Productions dashboard** — Production cards with cover images, countdown timers, and action buttons | Show 2–3 production cards, one with a countdown ("Opens in 5 days"), one with the celebration banner |
+| 02 | `2.png` | **Script view overview** — Full workspace layout with toolbar, side panels, and script page | Wide shot showing toolbar at top, a script page in center, and one side panel open (e.g., Layers) |
+| 03 | `3.png` | **Script view toolbar** — Close-up of the toolbar buttons | Crop to just the toolbar row; show undo/redo, structure, characters, people, blocking, admin, reports, export, inspect, cut cues, move/pan, layer badge, notification bell |
+| 04 | `4.png` | **Outline panel** — Production structure tree with timers and run time calculator | Show the outline panel with acts/scenes/songs, a running timer (red elapsed time), and the run time calculator at the bottom |
+| 05 | `5.png` | **DCA toolbar** — Numbered DCA circles and Mic Cue marker above the script | Show the toolbar with 16 numbered circles and MC marker visible above the script page |
+| 06 | `6.png` | **Notification panel** — Notification list with filter tabs | Show the panel open with a few notifications (import complete, feedback update) and the filter tabs |
+| 07 | `7.png` | **Production admin dashboard** — Scroll control, communication, layers, and activity tabs | Show the dashboard with the Communication tab active, showing a broadcast message or countdown timer |
+| 08 | `8.png` | **Offline mode dialog** — Component selection with download progress | Show the download dialog with checkboxes for Script pages, Annotations, Music, Blocking maps and size estimates |
+| 09 | `9.png` | **Page movement leader/follow** — Toolbar controls with active leader indicator | Close-up of the leader/follow toggles in the toolbar, with the red leader indicator active |
 
 ### Creating an Account
 

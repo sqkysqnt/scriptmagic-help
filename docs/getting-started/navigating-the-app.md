@@ -18,7 +18,7 @@ Each production is shown as a card with:
 
 Click any production card to open it in the script view.
 
-![Productions dashboard showing production cards with cover images, countdown timers, and action buttons](../images/screenshots/01.png)
+![Productions dashboard showing production cards with cover images, countdown timers, and action buttons](../images/screenshots/1.png)
 
 !!! tip
     Productions are sorted by opening date, with upcoming shows listed first. Once a show has opened, a celebration banner appears on its card.
@@ -27,7 +27,7 @@ Click any production card to open it in the script view.
 
 The script view is where you'll spend most of your time. This is the main workspace for reading, annotating, and collaborating on a script.
 
-![Script view — full workspace layout with toolbar, side panels, and script page](../images/screenshots/02.png)
+![Script view — full workspace layout with toolbar, side panels, and script page](../images/screenshots/2.png)
 
 ### Script area
 
@@ -55,7 +55,7 @@ The toolbar at the top of the script view includes:
 - **Active layer badge** — Shows the name of your currently active layer in the toolbar
 - **Notification bell** — Shows unread notification count. See [Notifications](#notifications).
 
-![Script view toolbar — close-up of toolbar buttons](../images/screenshots/03.png)
+![Script view toolbar — close-up of toolbar buttons](../images/screenshots/3.png)
 
 ### Side panels
 
@@ -74,7 +74,7 @@ On mobile and tablet devices, side panels slide in from the right as overlays ra
 
 When a [Sound DCA layer](../annotations/understanding-layers.md#sound-dca-layers) is active, a DCA toolbar appears above the script showing 16 numbered circles and a Mic Cue marker. Drag these onto the script page to place sound channel assignments. See [Sound DCA Layers](../annotations/understanding-layers.md#sound-dca-layers) for details.
 
-![DCA toolbar — numbered DCA circles and Mic Cue marker above the script](../images/screenshots/05.png)
+![DCA toolbar — numbered DCA circles and Mic Cue marker above the script](../images/screenshots/5.png)
 
 ### Page movement leader and follow
 
@@ -83,7 +83,7 @@ ScriptMagic supports synchronized page navigation for rehearsals:
 - **Page Movement Leader** — Click the leader toggle in the toolbar to broadcast your page position to everyone in the production. A red indicator shows when you're the active leader.
 - **Follow** — Click the follow toggle to sync your view with the leader's page navigation. The leader's name is displayed while following.
 
-![Page movement leader/follow — toolbar controls with active leader indicator](../images/screenshots/09.png)
+![Page movement leader/follow — toolbar controls with active leader indicator](../images/screenshots/9.png)
 
 ## Notifications
 
@@ -95,7 +95,7 @@ The notification bell in the toolbar shows your unread notification count. Tap t
 
 From the notification panel you can filter by type (all, unread, feedback, imports, announcements), mark all as read, or swipe to delete individual notifications.
 
-![Notification panel — notification list with filter tabs](../images/screenshots/06.png)
+![Notification panel — notification list with filter tabs](../images/screenshots/6.png)
 
 ## Production admin dashboard
 
@@ -106,7 +106,7 @@ The production admin dashboard (available to Production Team and Admin roles) pr
 - **Communication** — Broadcast messages to all connected users, start countdown timers (for breaks, places calls, etc.), and pin persistent notes visible to the whole team
 - **Activity** — View a real-time audit log of recent edits, broadcasts, and actions with filtering by user, layer, and activity type
 
-![Production admin dashboard — scroll control, communication, layers, and activity tabs](../images/screenshots/07.png)
+![Production admin dashboard — scroll control, communication, layers, and activity tabs](../images/screenshots/7.png)
 
 ## Outline panel
 
@@ -125,7 +125,7 @@ At the bottom of the outline panel, a collapsible run time calculator lets you:
 - Use **Select All / Deselect All** for quick toggling
 - View the total runtime of selected items
 
-![Outline panel — production structure tree with timers and run time calculator](../images/screenshots/04.png)
+![Outline panel — production structure tree with timers and run time calculator](../images/screenshots/4.png)
 
 !!! tip
     The outline panel is especially useful during rehearsals for quickly navigating to specific scenes and timing them in real time.
@@ -145,7 +145,7 @@ ScriptMagic supports downloading productions for offline use on iOS, Android, ma
 
 Changes made offline are queued and synced automatically when you reconnect.
 
-![Offline mode dialog — component selection with download progress](../images/screenshots/08.png)
+![Offline mode dialog — component selection with download progress](../images/screenshots/8.png)
 
 ## Account menu
 
