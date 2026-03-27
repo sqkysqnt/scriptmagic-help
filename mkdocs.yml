@@ -55,6 +55,7 @@ nav:
       - People: productions/people.md
       - Characters: productions/characters.md
       - Production Structure: productions/production-structure.md
+      - Snapshots & History: productions/snapshots.md
   - Scripts:
       - Uploading a Script: scripts/uploading-a-script.md
       - Viewing & Navigating Pages: scripts/viewing-and-navigating-pages.md

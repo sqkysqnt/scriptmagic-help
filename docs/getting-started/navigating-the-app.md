@@ -32,8 +32,7 @@ The script view is where you'll spend most of your time. This is the main worksp
 ### Script area
 
 - **Script pages** — The central area displays your script pages. Scroll vertically to move through the page content, and use navigation controls to move between pages.
-- **Page navigation** — Previous/Next buttons and a page number input let you jump to any page. Supports Roman numerals for front matter (i, ii, iii). See [Viewing & Navigating Pages](../scripts/viewing-and-navigating-pages.md).
-- **Zoom controls** — A compact zoom toolbar with zoom in/out buttons (25% steps), a percentage display, and tap-to-reset. Range: 50% to 300%. See [Zooming](../scripts/viewing-and-navigating-pages.md#zooming).
+- **Navigation and zoom bar** — A combined control bar at the bottom with zoom controls on the left (−/+, percentage display, tap to reset) and page navigation on the right (previous/next arrows, page number input, page counter). Supports Roman numerals for front matter (i, ii, iii). Zoom range: 50% to 300% in 25% steps. See [Viewing & Navigating Pages](../scripts/viewing-and-navigating-pages.md).
 - **Pinch-to-zoom** — On mobile and tablet, pinch to zoom in and out on the script page. Pan by dragging when zoomed in.
 - **Script variant selector** — If your production has multiple [script variants](../scripts/script-variants.md), switch between them from the toolbar.
 
@@ -46,7 +45,7 @@ The toolbar at the top of the script view includes:
 - **Characters** — Open the character management dialog
 - **People** — Manage production members (Production Team and Admin only)
 - **Blocking Editor** — Open the [blocking editor](../blocking/the-blocking-editor.md) (Production Team and Admin only)
-- **Production Admin** — Open the [production admin dashboard](#production-admin-dashboard) (Production Team and Admin only)
+- **Production Admin** — Open the [production admin dashboard](#production-admin-dashboard) (Production Admin only)
 - **Reports** — Open the [breakdown reports](../annotations/cues.md#reports) dialog
 - **Export Script** — Export the annotated script as a PDF. See [Sharing & Exporting](../collaboration/sharing-and-exporting.md).
 - **Inspect Highlights** — Toggle inspection mode to view highlight details on tap
@@ -66,6 +65,7 @@ The toolbar at the top of the script view includes:
 - **Music panel** — Manage [music tags](../annotations/tags.md#music-tags) and audio files.
 - **Video panel** — Manage [video tags](../annotations/tags.md#video-tags) and video links. Drag video tags onto script pages.
 - **Music, video, and blocking tags** — [Media tags](../annotations/tags.md) appear on script pages where they've been placed.
+- **History panel** — View and create [snapshots](../productions/snapshots.md) of your production's cues and highlights. Compare snapshots against the current state and restore individual items or entire layers.
 - **Help search** — Search the help documentation from within the app for quick answers.
 
 On mobile and tablet devices, side panels slide in from the right as overlays rather than displaying side-by-side.
@@ -99,14 +99,22 @@ From the notification panel you can filter by type (all, unread, feedback, impor
 
 ## Production admin dashboard
 
-The production admin dashboard (available to Production Team and Admin roles) provides centralized controls for managing a live production:
+The production admin dashboard (available to Production Admin roles) provides centralized controls for managing a live production. It uses a sidebar navigation with the following sections:
 
+- **Dashboard** — Overview showing online users, the current scroll leader, any active timer (e.g., break countdown), recent broadcast messages, and the pinned note
 - **Scroll Control** — Take or assign page movement leader status, or clear the leader
 - **Layers** — View all production layers, change layer visibility, and copy layers as personal copies
 - **Communication** — Broadcast messages to all connected users, start countdown timers (for breaks, places calls, etc.), and pin persistent notes visible to the whole team
 - **Activity** — View a real-time audit log of recent edits, broadcasts, and actions with filtering by user, layer, and activity type
+- **Blocking** — Manage blocking maps for the production
+- **Access** — Control production access and permissions
+- **Import / Export** — Import and export production data
+- **Script Variants** — Manage [script variants](../scripts/script-variants.md) for the production
+- **Data Management** — Manage production data and storage
+- **Snapshots** — Configure which layers are included in [manual and automatic snapshots](../productions/snapshots.md#snapshot-layer-configuration). Toggle individual layers or use Include All / Exclude All.
+- **Analytics** — View production statistics (pages, layers, people, highlights, cues, snapshots), cumulative activity metrics (sessions, highlights created, cues created, pages viewed, emails sent, OCR extractions, broadcasts), and a recent audit log of admin actions
 
-![Production admin dashboard — scroll control, communication, layers, and activity tabs](../images/screenshots/7.png)
+![Production admin dashboard — sidebar navigation with dashboard overview](../images/screenshots/7.png)
 
 ## Outline panel
 

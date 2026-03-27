@@ -33,7 +33,7 @@ Both methods produce the same result.
 
 If your PDF includes cover pages, a title page, or other front matter before the actual script begins, set the **pages before script page 1** value in your production settings.
 
-For example, if the first 5 pages of your PDF are front matter, set the offset to 5. That way, "Page 1" in ScriptMagic refers to what's actually the 6th page of the PDF. Front matter pages can be accessed using Roman numerals (i, ii, iii, etc.) in the [page navigation](viewing-and-navigating-pages.md#page-navigation).
+For example, if the first 5 pages of your PDF are front matter, set the offset to 5. That way, "Page 1" in ScriptMagic refers to what's actually the 6th page of the PDF. Front matter pages can be accessed using Roman numerals (i, ii, iii, etc.) in the [page navigation](viewing-and-navigating-pages.md#page-navigation-right-side).
 
 ## Replacing a script
 

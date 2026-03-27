@@ -2,27 +2,26 @@
 
 The script view displays your script one page at a time, with tools for navigation and zoom. This is the main workspace where you'll read, annotate, and collaborate on your script.
 
-## Page navigation
+## Navigation and zoom controls
 
-- **Previous / Next buttons** — step through pages one at a time using the arrow buttons
-- **Page number input** — type a page number and press Enter to jump directly to that page
-- **Roman numerals** — for front matter pages before "Page 1" (set via the [page offset](uploading-a-script.md#page-offset)), you can enter Roman numerals (i, ii, iii, etc.)
-- **Page counter** — shows your current position (e.g., "5 / 120")
+A combined control bar at the bottom of the script view provides both zoom and page navigation:
 
-![Page navigation controls — previous/next buttons, page input, and page counter](../images/screenshots/13.png)
+![Page navigation and zoom controls](../images/screenshots/13.png)
+
+### Zoom (left side)
+
+- **Zoom out (−)** — decrease zoom by 25% per click (minimum 50%)
+- **Zoom percentage** — shows the current zoom level (e.g., "100%"). Click to reset to 100%.
+- **Zoom in (+)** — increase zoom by 25% per click (maximum 300%)
+
+### Page navigation (right side)
+
+- **Previous / Next arrows** — step through pages one at a time
+- **Page number input** — type a page number and press Enter to jump directly to that page. Supports Roman numerals (i, ii, iii) for front matter pages before "Page 1" (set via the [page offset](uploading-a-script.md#page-offset)).
+- **Page counter** — shows your current position (e.g., "33 / 206")
 
 !!! tip
     The next few pages are preloaded in the background so navigation feels smooth, even on slower connections.
-
-## Zooming
-
-A compact zoom control toolbar is displayed at the bottom of the script view:
-
-- **Zoom out button** — decrease zoom by 25% per click (minimum 50%)
-- **Zoom percentage display** — shows the current zoom level. Click to reset to 100%.
-- **Zoom in button** — increase zoom by 25% per click (maximum 300%)
-
-![Zoom controls — zoom toolbar with in/out buttons and percentage display](../images/screenshots/14.png)
 
 ### Pinch-to-zoom
 

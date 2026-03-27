@@ -31,7 +31,7 @@ Six tabs:
 - **Layers** — Manage blocking layers. Each layer can hold its own set of elements, and layers can be shown or hidden independently.
 - **Info** — View and edit the blocking map's metadata (title, page, linked structure item, description, notes).
 - **Maps** — Browse all blocking maps in the production. Switch between maps, create new ones, or delete existing ones without leaving the editor.
-- **Properties** — Context-sensitive panel showing details for the selected element. Edit labels, spike colors, dimensions, z-order, and lock state.
+- **Templates** — Save and manage [map templates](#map-templates) that contain stage setups (scenery, background, calibration, grid) without character positions.
 
 ![Blocking editor — full layout with canvas, info bar, and sidebar](../images/screenshots/29.png)
 

@@ -16,7 +16,7 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 | 4 | `4.png` | **Outline panel** — Production structure tree with timers and run time calculator | Show the outline panel with acts/scenes/songs, a running timer (red elapsed time), and the run time calculator at the bottom | Yes | 2026-03-02 |
 | 5 | `5.png` | **DCA toolbar** — Numbered DCA circles and Mic Cue marker above the script | Show the toolbar with 16 numbered circles and MC marker visible above the script page | Yes | 2026-03-02 |
 | 6 | `6.png` | **Notification panel** — Notification list with filter tabs | Show the panel open with a few notifications (import complete, feedback update) and the filter tabs | Yes | 2026-03-02 |
-| 7 | `7.png` | **Production admin dashboard** — Scroll control, communication, layers, and activity tabs | Show the dashboard with the Communication tab active, showing a broadcast message or countdown timer | Yes | 2026-03-02 |
+| 7 | `7.png` | **Production admin dashboard** — Sidebar navigation with dashboard overview | Show the dashboard with sidebar (Dashboard, Scroll Control, Layers, Communication, Activity, Blocking, Access, Import/Export, Script Variants, Data Management) and dashboard view showing online users, scroll leader, active timer, recent messages, pinned note | Yes | 2026-03-02 |
 | 8 | `8.png` | **Offline mode dialog** — Component selection with download progress | Show the download dialog with checkboxes for Script pages, Annotations, Music, Blocking maps and size estimates | — | — |
 | 9 | `9.png` | **Page movement leader/follow** — Toolbar controls with active leader indicator | Close-up of the leader/follow toggles in the toolbar, with the red leader indicator active | — | — |
 
@@ -24,7 +24,7 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 
 | # | Filename | Description | Capture notes | Exists | Uploaded |
 |---|----------|-------------|---------------|--------|----------|
-| 10 | `10.png` | **Sign-up form** — Account creation form from an invitation link | Show the form with pre-filled email, name fields, password fields, and the "Create Account & Join" button | Yes | 2026-03-02 |
+| 10 | `10.png` | **Request account creation form** — Account request form from the login screen | Show the form with Email, Full Name, Phone Number (required), and optional fields (Pronouns, Role/Position, Emergency Contact, Notes) with "Submit Request" button | Yes | 2026-03-02 |
 
 ### Joining a Production
 
@@ -46,14 +46,14 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 
 | # | Filename | Description | Capture notes | Exists | Uploaded |
 |---|----------|-------------|---------------|--------|----------|
-| 13 | `13.png` | **Page navigation controls** — Previous/next buttons, page input, and page counter | Close-up of the bottom navigation bar showing arrows, page number input, and "5 / 120" counter | Yes | 2026-03-02 |
-| 14 | `14.png` | **Zoom controls** — Zoom toolbar with in/out buttons and percentage display | Close-up of the compact zoom toolbar at the bottom of the script view | Yes | 2026-03-02 |
+| 13 | `13.png` | **Navigation and zoom controls** — Combined control bar with zoom (left) and page navigation (right) | Close-up of the bottom bar showing zoom (−/100%/+) on the left and page navigation (< 33 / 206 >) on the right | Yes | 2026-03-02 |
+| 14 | `14.png` | ~~Merged with #13~~ — Same combined control bar as screenshot 13 | Duplicate of #13; zoom and page navigation are now a single combined control | Yes | 2026-03-02 |
 
 ### Script Variants
 
 | # | Filename | Description | Capture notes | Exists | Uploaded |
 |---|----------|-------------|---------------|--------|----------|
-| 15 | `15.png` | **Variants manager** — Page grid with reorder, cut/copy/paste, and add controls | Show the variant editor with page thumbnails in a grid, some selected, and the toolbar with Cut/Copy/Paste/Delete buttons | Yes | 2026-03-02 |
+| 15 | `15.png` | **Variants manager** — Page grid with variant management toolbar | Show the variant editor with page thumbnails in a grid, variant dropdown, and toolbar with Add Pages, Add Blank, Rename, Duplicate, Set Default, Delete buttons | Yes | 2026-03-02 |
 
 ---
 
@@ -161,6 +161,15 @@ This file identifies all screenshots used throughout the ScriptMagic help articl
 | 48 | `48.png` | **Cast sheets** — Per-person scene excerpts with export options | Show the Cast Sheets tab with a person selected, showing their scenes and the PDF export button | — | — |
 | 49 | `49.png` | **Cues by layer report** — Per-layer cue table with CSV/PDF export | Show the Cues by Layer tab with cue rows, column headers, and export buttons | — | — |
 | 50 | `50.png` | **Duration summary** — Hierarchical view with act subtotals and grand total | Show the Duration Summary tab with structure items, durations, subtotals, and filtering options | — | — |
+
+### Snapshots & History
+
+| # | Filename | Description | Capture notes | Exists | Uploaded |
+|---|----------|-------------|---------------|--------|----------|
+| 56 | `56.png` | **History panel** — Snapshot list with save controls | Show the History side panel with the label input, Save Snapshot button, layer picker, and a few snapshots in the list (mix of manual and automatic with badges) | — | — |
+| 57 | `57.png` | **Snapshot comparison** — Side-by-side diff of snapshot vs. current state | Show the diff view with layers listed, cue/highlight count differences, and restore buttons | — | — |
+| 58 | `58.png` | **Snapshot layer configuration** — Admin panel layer toggle list | Show the Snapshots section in the admin dashboard with layer toggles, Include All/Exclude All buttons, and layer count | — | — |
+| 59 | `59.png` | **Analytics dashboard** — Production stats and cumulative activity | Show the Analytics section with stat cards (pages, layers, people, highlights, cues, snapshots), cumulative metrics, and recent audit log | — | — |
 
 ---
 

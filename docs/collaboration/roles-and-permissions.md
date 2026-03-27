@@ -32,7 +32,7 @@ For stage managers, designers, technicians, and other crew members.
 Full access to manage the production.
 
 - Everything Production Team can do, plus:
-- Access the [production admin dashboard](../getting-started/navigating-the-app.md#production-admin-dashboard) (scroll control, communication broadcasts, activity log, layer management)
+- Access the [production admin dashboard](../getting-started/navigating-the-app.md#production-admin-dashboard) (scroll control, communication, activity log, layer management, blocking, access, import/export, script variants, data management)
 - Edit production settings (name, dates, script, etc.)
 - Manage [people](../productions/people.md) (add, remove, change roles)
 - Manage [characters](../productions/characters.md) and [production structure](../productions/production-structure.md)
